@@ -1,0 +1,219 @@
+$breakpoints: (
+	mobile-small: 374px,
+	mobile-medium: 575px,
+	mobile: 767px,
+	admin-bar: 782px,
+	tablet: 1079px,
+	small-desktop: 1199px,
+	large-desktop: 1399px
+);
+
+/* ------------------------------------------------------------ *\
+  SCSS Functions
+\* ------------------------------------------------------------ */
+
+@function breakpoint-next($name, $breakpoints: $breakpoints, $breakpoint-names: map-keys($breakpoints)) {
+	$n: index($breakpoint-names, $name);
+	@return if($n != null and $n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+}
+
+@function breakpoint-min($name, $breakpoints: $breakpoints) {
+	$min: map-get($breakpoints, $name);
+	@return if($min != 0, $min + .02, null);
+}
+
+
+@function breakpoint-max($name, $breakpoints: $breakpoints) {
+	$max: map-get($breakpoints, $name);
+	@return if($max != 0, $max, null);
+}
+
+
+/* ------------------------------------------------------------ *\
+    Mixins
+\* ------------------------------------------------------------ */
+
+@mixin clearfix {
+	content: '';
+	line-height: 0;
+	display: table;
+	clear: both;
+}
+
+@mixin breakpoint-up($name, $breakpoints: $breakpoints) {
+	$min: breakpoint-min($name, $breakpoints);
+
+	@media (min-width: $min) {
+		@content;
+	}
+}
+
+@mixin breakpoint-down($name, $breakpoints: $breakpoints) {
+	$max: breakpoint-max($name, $breakpoints);
+
+	@media (max-width: $max) {
+		@content;
+	}
+}
+
+@mixin breakpoint-between($lower, $upper, $breakpoints: $breakpoints) {
+	$min: breakpoint-min($lower, $breakpoints);
+	$max: breakpoint-max($upper, $breakpoints);
+
+	@media (min-width: $min) and (max-width: $max) {
+		@content;
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Functions
+\* ------------------------------------------------------------ */
+
+@mixin bg-colour() {
+	@each $name, $val in $loop-colours {
+		&--#{$name} {
+			background-color: $val;
+			@content;
+		}
+	}
+}
+
+@mixin text-colour() {
+	@each $name, $val in $loop-colours {
+		.text--#{$name} {
+			color: $val;
+			@content;
+		}
+	}
+}
+
+
+@mixin border-colour() {
+	@each $name, $val in $loop-colours {
+		.border--#{$name} {
+			border-color: $val;
+			@content;
+		}
+	}
+}
+
+
+/* ----------------------------------- *\
+	Styling for WYSIWYG text elements
+\* ----------------------------------- */
+
+@mixin wysiwyg {
+	h1, .h1 {
+		font-size: 3rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+
+	h2, .h2 {
+		font-size: 2.5rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+
+	h3, .h3 {
+		font-size: 2rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+
+	h4, .h4 {
+		font-size: 1.8rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+
+	h5, .h5 {
+		font-size: 1.6rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+
+	h6, .h6 {
+		font-size: 1.6rem;
+		line-height: 1.2;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-top: 0;
+		}
+	}
+
+	p {
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	ul, ol {
+		margin-bottom: 1rem;
+		padding-left: 1.3rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		li{
+			margin-bottom: 0.43em;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			ul, ol {
+				margin-top: 0.43em;
+			}
+		}
+	}
+
+	.btn {
+		display: inline-block;
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	blockquote {
+		margin-bottom: 1rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

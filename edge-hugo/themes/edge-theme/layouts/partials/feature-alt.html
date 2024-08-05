@@ -1,0 +1,14 @@
+<div class="feature feature--alt">
+    <div class="feature__head">
+        <span class="feature__icon">
+            {{ with $image := resources.GetMatch "images/icon-landscape.svg" }}
+                <img src="{{ $image.RelPermalink }}" alt="Icon landscape">
+            {{ end }}
+        </span><!-- /.feature__icon -->
+    </div><!-- /.feature__head -->
+
+    <div class="feature__entry">
+        <h5>{{ .Title | title }}</h5>
+        <p>{{ .Description }}</p>
+    </div><!-- /.feature__entry -->
+</div><!-- /.feature -->

@@ -1,0 +1,19 @@
+<header class="header header--plain">
+	<div class="shell shell--large">
+		<div class="header__inner">
+			<a href="{{- printf "%s" site.BaseURL }}" class="logo">
+				<img src="{{ absURL "logo-colored.svg" }}" alt="Akamai Edge Compute colored logo">
+			</a>
+
+			<div class="header__nav">
+				{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+			</div><!-- /.header__nav -->
+
+			<a href="#" class="nav-btn js-nav-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a><!-- /.nav-btn -->
+		</div><!-- /.header__inner -->
+	</div><!-- /.shell -->
+</header><!-- /.header -->

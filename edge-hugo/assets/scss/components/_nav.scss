@@ -1,0 +1,31 @@
+/* ------------------------------------------------------------ *\
+	.nav
+\* ------------------------------------------------------------ */
+
+.nav {
+	ul {
+		display: flex;
+		align-items: center;
+		--gap-x: 4rem;
+		--gap-y: 0px;
+		margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
+	}
+
+	li {
+		padding: calc(var(--gap-y, 0px) / 2) calc(var(--gap-x, 0px) / 2);
+	}
+
+	a:not(.btn) {
+		display: inline-block;
+		text-decoration: none;
+		font-weight: 500;
+		transition: opacity var(--t-duration);
+		background-color: transparent;
+
+		&:hover {
+			@include breakpoint-up(tablet) {
+				opacity: .3;
+			}
+		}
+	}
+}

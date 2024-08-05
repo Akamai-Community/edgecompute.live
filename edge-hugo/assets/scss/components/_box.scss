@@ -1,0 +1,60 @@
+/* ------------------------------------------------------------ *\
+	.box
+\* ------------------------------------------------------------ */
+
+.box {
+	color: var(--c-black-2);
+	background-color: var(--c-white);
+	border: 1px solid rgba(144, 144, 144, .1);
+	border-radius: .4rem;
+	overflow: hidden;
+	padding: 3.2rem;
+	display: block;
+	text-decoration: none;
+
+	&:hover {
+		@include breakpoint-up(tablet) {
+			.box__btn {
+				background-color: var(--c-orange);
+				color: var(--c-white);
+			}
+		}
+	}
+
+	h5 {
+		margin-right: .8rem;
+		margin-bottom: 0;
+		// font-weight: 700;
+	}
+
+	.box__btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 5.5rem;
+		flex: 0 0 5.5rem;
+		height: 5.5rem;
+		border: 1px solid var(--c-orange);
+		color: var(--c-orange);
+		border-radius: 50%;
+		transition: background-color var(--t-duration), color var(--t-duration);
+	}
+
+	.box__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+/*  Boxes  */
+.boxes {
+	.grid {
+		--gap-x: 2.4rem;
+		--gap-y: 2.4rem;
+	}
+
+	.box {
+		min-height: 100%;
+	}
+}

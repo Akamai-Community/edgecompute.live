@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Edge Compute Live'
+theme = 'edge-theme'
+disableKinds = ["tags"]
+ignoreErrors = ["error-disable-taxonomy"]
+[taxonomies]
+  category = "categories"

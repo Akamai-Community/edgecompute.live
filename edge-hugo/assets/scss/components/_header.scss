@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------ *\
+	.header
+\* ------------------------------------------------------------ */
+
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: transparent;
+	z-index: 1;
+	padding: 2.4rem 0;
+	color: var(--c-white);
+
+	.header__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.nav-btn {
+		display: none;
+	}
+}
+
+.header.header--plain {
+	color: var(--c-black-2);
+}

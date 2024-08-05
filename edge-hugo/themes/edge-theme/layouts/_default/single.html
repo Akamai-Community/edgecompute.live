@@ -1,0 +1,256 @@
+{{ define "main" }}
+<section class="section-single-post">
+	<div class="shell">
+		<div class="section__inner">
+			<div class="section__aside">
+				<nav class="section__nav">
+					<p>Examples</p>
+
+					<ul>
+						<li>
+							<a href="#">Example A</a>
+						</li>
+
+						<li>
+							<a href="#">Example B</a>
+						</li>
+					</ul>
+				</nav><!-- /.nav section__nav -->
+			</div><!-- /.section__aside -->
+
+			<div class="section__main">
+				<div class="section__head">
+					<div class="section__banner">
+						<span class="section__icon">
+							{{ $iconUrl := .Params.icon }}
+							{{ with $image := resources.GetMatch (printf "images/%s" $iconUrl) }}
+								<img src="{{ $image.RelPermalink }}" alt="Example icon">
+							{{ end }}
+						</span><!-- /.section__icon -->
+
+						<div class="section__info">
+							<div class="section__tags">
+								{{ partial "terms.html" (dict "taxonomy" "categories" "page" . "className" "type-tag") }}
+							</div><!-- /.section__tags -->
+
+							<h2>{{ .Title }}</h2>
+
+							<p>Last updated on <span class="js-time-updated" data-api-url="{{ .Params.giturl }}"></span></p>
+						</div><!-- /.section__info -->
+					</div><!-- /.section__banner -->
+
+					<div class="section__cta">
+						<a href="{{ .Params.gitURL | safeURL }}" class="btn btn--blue" target="_blank">View on GitHub</a><!-- /.btn btn--blue -->
+					</div><!-- /.section__cta -->
+				</div><!-- /.section__head -->
+
+				<div class="section__body">
+					{{ if .Params.description }}
+						<div class="section__entry">
+							<p>{{ .Params.description }}</p>
+						</div><!-- /.section__entry -->
+					{{ end }}
+
+					<div class="tabs-code js-tabs">
+						<div class="tabs__head">
+							<nav class="tabs__nav">
+								<ul>
+									<li>
+										<span data-target="1">Source Code</span>
+									</li>
+
+									<li>
+										<span data-target="2">Live Preview</span>
+									</li>
+
+									<li class="current">
+										<span data-target="*">Both</span>
+									</li>
+								</ul>
+							</nav><!-- /.nav tabs__nav -->
+
+							<span class="btn-copy js-copy-code">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g opacity="0.3" clip-path="url(#clip0_4073_12)">
+									<path d="M13.3334 5.33325H6.66671C5.93033 5.33325 5.33337 5.93021 5.33337 6.66659V13.3333C5.33337 14.0696 5.93033 14.6666 6.66671 14.6666H13.3334C14.0698 14.6666 14.6667 14.0696 14.6667 13.3333V6.66659C14.6667 5.93021 14.0698 5.33325 13.3334 5.33325Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M2.66671 10.6666C1.93337 10.6666 1.33337 10.0666 1.33337 9.33325V2.66659C1.33337 1.93325 1.93337 1.33325 2.66671 1.33325H9.33337C10.0667 1.33325 10.6667 1.93325 10.6667 2.66659" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</g>
+									<defs>
+									<clipPath id="clip0_4073_12">
+									<rect width="16" height="16" fill="currentColor"/>
+									</clipPath>
+									</defs>
+								</svg>
+							</span><!-- /.btn-copy -->
+						</div><!-- /.tabs__head -->
+
+						<div class="tabs__body">
+							<div class="tab current">
+								<div class="codeblock">
+									<pre class="language-js js-entry-code" data-ajax="{{ .Params.gitURL }}"><code>Loading...</code></pre>
+								</div><!-- /.codeblock -->
+							</div><!-- /.tab -->
+
+							<div class="tab current">
+								<div class="box-preview">
+									<div class="box__head">
+										<p>{{ .Params.demoURL }}</p>
+									</div><!-- /.box__head -->
+
+									<div class="box__body">
+										<iframe src="{{ .Params.demoURL }}" width="100%" height="400" frameborder="0"></iframe>
+									</div><!-- /.box__body -->
+								</div><!-- /.box-preview -->
+							</div><!-- /.tab -->
+						</div><!-- /.tabs__body -->
+
+						<div class="tabs__info">
+							<p>Copied to clipboard!</p>
+						</div><!-- /.tab__info -->
+					</div><!-- /.tabs js-tabs -->
+
+					{{ if .Params.useCase }}
+						<div class="section__entry">
+							<p>{{ .Params.useCase }}</p>
+						</div><!-- /.section__entry -->
+					{{ end }}
+
+					<div class="features">
+						<div class="grid">
+							{{ range $key, $value := .Params.benefits }}
+								<div class="grid__col grid__col--1of2">
+									{{ partial "feature-alt.html" (dict "Title" $key "Description" $value) }}
+								</div><!-- /.grid__col grid__col--1of2 -->
+							{{ end }}
+						</div><!-- /.grid -->
+					</div><!-- /.features -->
+				</div><!-- /.section__body -->
+
+				<div class="section__outro">
+					<div class="section__cards">
+						<div class="section__cards-head">
+							<h3>Related Examples</h3>
+
+							{{ $examplesURL := site.GetPage "section" "examples" }}
+							<a href="{{ $examplesURL.RelPermalink }}" class="btn btn--medium btn--outline-black">View More</a>
+						</div><!-- /.section__cards-head -->
+
+						<div class="cards">
+							<div class="grid">
+								<div class="grid__col grid__col--1of3">
+									<div class="card">
+										<a href="#"></a>
+
+										<div class="card__head">
+											<span class="card__icon">
+												{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+											</span><!-- /.card__icon -->
+
+											<picture class="card__background">
+												{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+											</picture><!-- /.card__background -->
+										</div><!-- /.card__head -->
+
+										<div class="card__body">
+											<div class="card__tags">
+												<ul>
+													<li>
+														<a href="#" class="type-tag">Ecommerce</a>
+													</li>
+												</ul>
+											</div><!-- /.card__tags -->
+
+											<div class="card__entry">
+												<h5>Ecommerce</h5>
+
+												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+											</div><!-- /.card__entry -->
+
+											<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+										</div><!-- /.card__body -->
+									</div><!-- /.card -->
+								</div><!-- /.grid__col grid__col--1of3 -->
+
+								<div class="grid__col grid__col--1of3">
+									<div class="card">
+										<a href="#"></a>
+
+										<div class="card__head">
+											<span class="card__icon">
+												{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+											</span><!-- /.card__icon -->
+
+											<picture class="card__background">
+												{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+											</picture><!-- /.card__background -->
+										</div><!-- /.card__head -->
+
+										<div class="card__body">
+											<div class="card__tags">
+												<ul>
+													<li>
+														<a href="#" class="type-tag">Ecommerce</a>
+													</li>
+												</ul>
+											</div><!-- /.card__tags -->
+
+											<div class="card__entry">
+												<h5>Ecommerce</h5>
+
+												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+											</div><!-- /.card__entry -->
+
+											<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+										</div><!-- /.card__body -->
+									</div><!-- /.card -->
+								</div><!-- /.grid__col grid__col--1of3 -->
+
+								<div class="grid__col grid__col--1of3">
+									<div class="card">
+										<a href="#"></a>
+
+										<div class="card__head">
+											<span class="card__icon">
+												{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+											</span><!-- /.card__icon -->
+
+											<picture class="card__background">
+												{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+											</picture><!-- /.card__background -->
+										</div><!-- /.card__head -->
+
+										<div class="card__body">
+											<div class="card__tags">
+												<ul>
+													<li>
+														<a href="#" class="type-tag">Ecommerce</a>
+													</li>
+												</ul>
+											</div><!-- /.card__tags -->
+
+											<div class="card__entry">
+												<h5>Ecommerce</h5>
+
+												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+											</div><!-- /.card__entry -->
+
+											<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+										</div><!-- /.card__body -->
+									</div><!-- /.card -->
+								</div><!-- /.grid__col grid__col--1of3 -->
+							</div><!-- /.grid -->
+						</div><!-- /.cards -->
+					</div><!-- /.section__cards -->
+				</div><!-- /.section__outro -->
+			</div><!-- /.section__main -->
+		</div><!-- /.section__inner -->
+	</div><!-- /.shell -->
+</section><!-- /.section- -->
+
+  {{/*  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>  */}}
+
+  {{/*  {{ .Content }}  */}}
+  {{/*  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}  */}}
+{{ end }}

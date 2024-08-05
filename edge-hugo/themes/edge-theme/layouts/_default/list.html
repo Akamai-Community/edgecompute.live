@@ -1,0 +1,494 @@
+{{ define "main" }}
+
+	<section class="section-intro bg--light-blue">
+		<div class="shell">
+			<h1>{{ .Title }}</h1>
+		</div><!-- /.shell -->
+	</section><!-- /.section- -->
+
+	<section class="section-listing">
+		<div class="shell">
+			<header class="section__head">
+				<div class="filters js-filters">
+					<div class="select">
+						<select name="" id="">
+							<option selected>Filter</option>
+						</select>
+					</div><!-- /.select -->
+
+					<div class="filters__actions">
+						<ul>
+							<li>
+								<a href="#" class="btn js-filters-apply">Apply</a><!-- /.btn -->
+							</li>
+
+							<li>
+								<a href="#" class="btn btn--outline-black js-filters-reset">Reset</a><!-- /.btn btn--outline-black -->
+							</li>
+						</ul>
+					</div><!-- /.filters__actions -->
+				</div><!-- /.filters js-filters -->
+			</header><!-- /.section__head -->
+
+			<div class="section__body">
+				<div class="listing js-listing">
+					<div class="cards">
+						<div class="grid">
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+
+							<div class="grid__col grid__col--1of3">
+								<div class="card">
+									<a href="#"></a>
+
+									<div class="card__head">
+										<span class="card__icon">
+											{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
+										</span><!-- /.card__icon -->
+
+										<picture class="card__background">
+											{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+										</picture><!-- /.card__background -->
+									</div><!-- /.card__head -->
+
+									<div class="card__body">
+										<div class="card__tags">
+											<ul>
+												<li>
+													<a href="#" class="type-tag">Ecommerce</a>
+												</li>
+											</ul>
+										</div><!-- /.card__tags -->
+
+										<div class="card__entry">
+											<h5>Ecommerce</h5>
+
+											<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+										</div><!-- /.card__entry -->
+
+										<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+									</div><!-- /.card__body -->
+								</div><!-- /.card -->
+							</div><!-- /.grid__col grid__col--1of3 -->
+						</div><!-- /.grid -->
+					</div><!-- /.cards -->
+
+					<nav class="listing__nav">
+						<ul>
+							<li>
+								<a href="#" class="js-listing-prev">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10 12L6 8L10 4" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</li>
+
+							<li class="current">
+								<a href="#">1</a>
+							</li>
+
+							<li>
+								<a href="#">2</a>
+							</li>
+
+							<li>
+								<a href="#">...</a>
+							</li>
+
+							<li>
+								<a href="#">9</a>
+							</li>
+
+							<li>
+								<a href="#" class="js-listing-next">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 12L10 8L6 4" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</nav><!-- /.listing__nav -->
+				</div><!-- /.listing js-listing -->
+			</div><!-- /.section__body -->
+		</div><!-- /.shell -->
+	</section><!-- /.section- -->
+
+	{{/*  {{ .Content }}  */}}
+
+	{{/*  {{ range .Pages }}
+    	<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+
+		{{ .Summary }}
+  	{{ end }}  */}}
+{{ end }}

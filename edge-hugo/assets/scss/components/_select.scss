@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	.select
+\* ------------------------------------------------------------ */
+
+.select {
+	position: relative;
+
+	select {
+		width: 42.7rem;
+		border-radius: .4rem;
+		border: 1px solid rgba($color: #909090, $alpha: .15);
+		color: var(--c-black-2);
+		font-size: 1.6rem;
+		line-height: 1.5;
+		padding: 1.2rem 1.6rem;
+		appearance: none;
+	}
+}

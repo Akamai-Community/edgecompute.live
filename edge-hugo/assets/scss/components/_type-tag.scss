@@ -1,0 +1,24 @@
+/* ------------------------------------------------------------ *\
+	.type-tag
+\* ------------------------------------------------------------ */
+
+.type-tag {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid currentcolor;
+	border-radius: .2rem;
+	color: var(--c-black-2);
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: .9;
+	padding: .4rem .8rem;
+	transition: background-color var(--t-duration), color var(--t-duration);
+
+	&:hover {
+		@include breakpoint-up(tablet) {
+			background-color: var(--c-black-2);
+			color: var(--c-white);
+		}
+	}
+}

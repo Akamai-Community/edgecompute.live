@@ -1,0 +1,42 @@
+<div class="shell">
+	<div class="footer__intro">
+		<div class="footer__entry">
+			<h2>Our Customers</h2>
+
+			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+
+			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+		</div><!-- /.footer__entry -->
+
+		<a href="#" class="btn">Contact Us</a><!-- /.btn -->
+	</div><!-- /.footer__intro -->
+
+	<div class="footer__content">
+		<a href="{{- printf "%s" site.BaseURL }}" class="footer__logo">
+			<img src="{{ absURL "logo-colored.svg" }}" alt="Akamai Edge Compute colored logo">
+		</a>
+
+		<div class="footer__inner">
+			<p>Copyright &#64; {{ now.Year }} Akamai Technologies, Inc. All rights reserved</p>
+
+			<div class="footer__actions">
+				<ul>
+					<li>
+						<a href="#">Terms &#38; Conditions</a>
+					</li>
+
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+				</ul>
+			</div><!-- /.footer__actions -->
+		</div><!-- /.footer__inner -->
+	</div><!-- /.footer__content -->
+
+</div><!-- /.shell -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+
+{{ partialCached "head/js.html" . }}
+

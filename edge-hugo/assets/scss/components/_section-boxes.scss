@@ -1,0 +1,35 @@
+/* ------------------------------------------------------------ *\
+	.section-boxes
+\* ------------------------------------------------------------ */
+
+.section-boxes {
+	padding: 8.8rem 0;
+	color: var(--c-black-2);
+
+	.section__head {
+		margin-bottom: 4.7rem;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		h2 {
+			margin-bottom: 0;
+		}
+	}
+
+	.section__actions {
+		ul {
+			list-style-type: none;
+			display: flex;
+			align-items: center;
+		}
+
+		li + li {
+			margin-left: .8rem;
+		}
+	}
+}

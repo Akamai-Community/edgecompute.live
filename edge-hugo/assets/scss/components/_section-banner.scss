@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------ *\
+	.section-banner
+\* ------------------------------------------------------------ */
+
+.section-banner {
+	padding: 17.5rem 0 6.1rem;
+	position: relative;
+
+	.section__background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.section__inner {
+		position: relative;
+		color: var(--c-white);
+	}
+
+	.section__content {
+		background-color: var(--c-blue);
+		margin-left: auto;
+		max-width: 65.2rem;
+		padding: 6.4rem;
+	}
+
+	.section__entry {
+		max-width: 46.4rem;
+		margin-bottom: 1.9rem;
+		font-size: 2.2rem;
+		line-height: 1.27;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		h2 {
+			margin-bottom: 1.9rem;
+		}
+	}
+
+	.btn-play {
+		position: relative;
+		left: .4rem;
+	}
+}

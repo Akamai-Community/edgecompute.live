@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------ *\
+	.filters
+\* ------------------------------------------------------------ */
+
+.filters {
+	display: flex;
+	align-items: center;
+
+	>* + * {
+		margin-left: 2.4rem;
+	}
+
+	.filters__actions {
+		ul {
+			display: flex;
+			list-style-type: none;
+			align-items: center;
+			--gap-x: .8rem;
+			--gap-y: .8rem;
+			margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
+		}
+
+		li {
+			padding: calc(var(--gap-y, 0px) / 2) calc(var(--gap-x, 0px) / 2);
+		}
+
+		.btn {
+			padding: 1.1rem 2.3rem;
+		}
+	}
+}
+
