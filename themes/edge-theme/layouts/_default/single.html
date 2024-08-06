@@ -47,7 +47,7 @@
 				<div class="section__body">
 					{{ if .Params.description }}
 						<div class="section__entry">
-							<p>{{ .Params.description }}</p>
+							<p>{{ .Params.description | safeHTML }}</p>
 						</div><!-- /.section__entry -->
 					{{ end }}
 
@@ -111,7 +111,7 @@
 
 					{{ if .Params.useCase }}
 						<div class="section__entry">
-							<p>{{ .Params.useCase }}</p>
+							<p>{{ .Params.useCase | safeHTML}}</p>
 						</div><!-- /.section__entry -->
 					{{ end }}
 

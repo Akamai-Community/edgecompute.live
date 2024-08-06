@@ -121,6 +121,7 @@
         Prism.highlightElement($codeContainer[0]);
       }).catch((error) => {
         console.error(error);
+        $codeContainer.text("Source code not available for this example.");
       });
     });
     $(document2).ready(function() {

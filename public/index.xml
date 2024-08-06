@@ -9,10 +9,199 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/examples/example-hello-world/</link>
+      <title>A/B Testing</title>
+      <link>http://localhost:1313/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/examples/example-hello-world/</guid>
+      <guid>http://localhost:1313/examples/ab-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A/B Testing with EdgeKV</title>
+      <link>http://localhost:1313/examples/ab-testing-with-edgekv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/ab-testing-with-edgekv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API Orchestration</title>
+      <link>http://localhost:1313/examples/api-orchestration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/api-orchestration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autocomplete</title>
+      <link>http://localhost:1313/examples/autocomplete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/autocomplete/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cachekey Device Type</title>
+      <link>http://localhost:1313/examples/cachekey-device-type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/cachekey-device-type/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference/Meeting Details</title>
+      <link>http://localhost:1313/examples/conference-metting-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/conference-metting-details/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content Security Policy</title>
+      <link>http://localhost:1313/examples/content-security-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/content-security-policy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cookie Geolocation</title>
+      <link>http://localhost:1313/examples/cookie-geolocation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/cookie-geolocation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cookie Manipulation</title>
+      <link>http://localhost:1313/examples/cookie-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/cookie-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Device Routing</title>
+      <link>http://localhost:1313/examples/device-routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/device-routing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dynamic Callback</title>
+      <link>http://localhost:1313/examples/dynamic-callback/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/dynamic-callback/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecommerce</title>
+      <link>http://localhost:1313/examples/ecommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/ecommerce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EdgeKV Hello World</title>
+      <link>http://localhost:1313/examples/edgekv-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/edgekv-hello-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Find Replace Stream</title>
+      <link>http://localhost:1313/examples/find-replace-stream/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/find-replace-stream/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geo Redirect</title>
+      <link>http://localhost:1313/examples/geo-redirect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/geo-redirect/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geolocation</title>
+      <link>http://localhost:1313/examples/geolocation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/geolocation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/examples/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/hello-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HTML Rewriter</title>
+      <link>http://localhost:1313/examples/html-rewriter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/html-rewriter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JA3 Fingerprinting</title>
+      <link>http://localhost:1313/examples/ja3-fingerprinting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/ja3-fingerprinting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multivariate Testing</title>
+      <link>http://localhost:1313/examples/multivariate-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/multivariate-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Origin Error Handling</title>
+      <link>http://localhost:1313/examples/origin-error-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/origin-error-handling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product URL Redirects</title>
+      <link>http://localhost:1313/examples/product-url-redirects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/product-url-redirects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Promo Code Validation</title>
+      <link>http://localhost:1313/examples/promo-code-validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/promo-code-validation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Response Manipulation</title>
+      <link>http://localhost:1313/examples/response-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/response-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search User Details</title>
+      <link>http://localhost:1313/examples/search-user-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/search-user-details/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Store Locator</title>
+      <link>http://localhost:1313/examples/store-locator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/store-locator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Traffic Allow</title>
+      <link>http://localhost:1313/examples/traffic-allow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/traffic-allow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Registration</title>
+      <link>http://localhost:1313/examples/user-registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/examples/user-registration/</guid>
       <description></description>
     </item>
   </channel>

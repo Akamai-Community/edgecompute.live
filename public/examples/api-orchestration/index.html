@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>API Orchestration | Edge Compute Live</title>
+
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/scss/main.css" type="text/css" media="all" />
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			
+				<header class="header header--plain">
+	<div class="shell shell--large">
+		<div class="header__inner">
+			<a href="http://localhost:1313/" class="logo">
+				<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+			</a>
+
+			<div class="header__nav">
+				
+  <nav class="nav">
+    <ul>
+
+    <li>
+      <a aria-current="true" class="ancestor" href="/examples/">Code Examples</a>
+    </li>
+
+    <li>
+      <a href="https://techdocs.akamai.com/edgeworkers/docs/welcome-to-edgeworkers" target="_blank">Docs</a>
+    </li>
+
+  <li>
+	<a href="https://github.com/akamai/edgeworkers-examples" class="btn btn--blue" target="_blank">GitHub</a>
+  </li>
+    </ul>
+  </nav>
+
+			</div>
+
+			<a href="#" class="nav-btn js-nav-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</div>
+	</div>
+</header>
+
+			
+
+			<main class="main">
+				
+<section class="section-single-post">
+	<div class="shell">
+		<div class="section__inner">
+			<div class="section__aside">
+				<nav class="section__nav">
+					<p>Examples</p>
+
+					<ul>
+						<li>
+							<a href="#">Example A</a>
+						</li>
+
+						<li>
+							<a href="#">Example B</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="section__main">
+				<div class="section__head">
+					<div class="section__banner">
+						<span class="section__icon">
+							
+							
+						</span>
+
+						<div class="section__info">
+							<div class="section__tags">
+								
+	<ul>
+			<li>
+				<a href="/categories/developer-tools/" class="type-tag">Developer Tools</a>
+			</li>
+	</ul>
+
+							</div>
+
+							<h2>API Orchestration</h2>
+
+							<p>Last updated on <span class="js-time-updated" data-api-url="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/orchestration/api-orchestration"></span></p>
+						</div>
+					</div>
+
+					<div class="section__cta">
+						<a href="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/orchestration/api-orchestration" class="btn btn--blue" target="_blank">View on GitHub</a>
+					</div>
+				</div>
+
+				<div class="section__body">
+					
+						<div class="section__entry">
+							<p>Demonstrates how EdgeWorkers can be used to merge multiple internal APIs into a single API response from a user experience perspective.</p>
+						</div>
+					
+
+					<div class="tabs-code js-tabs">
+						<div class="tabs__head">
+							<nav class="tabs__nav">
+								<ul>
+									<li>
+										<span data-target="1">Source Code</span>
+									</li>
+
+									<li>
+										<span data-target="2">Live Preview</span>
+									</li>
+
+									<li class="current">
+										<span data-target="*">Both</span>
+									</li>
+								</ul>
+							</nav>
+
+							<span class="btn-copy js-copy-code">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g opacity="0.3" clip-path="url(#clip0_4073_12)">
+									<path d="M13.3334 5.33325H6.66671C5.93033 5.33325 5.33337 5.93021 5.33337 6.66659V13.3333C5.33337 14.0696 5.93033 14.6666 6.66671 14.6666H13.3334C14.0698 14.6666 14.6667 14.0696 14.6667 13.3333V6.66659C14.6667 5.93021 14.0698 5.33325 13.3334 5.33325Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M2.66671 10.6666C1.93337 10.6666 1.33337 10.0666 1.33337 9.33325V2.66659C1.33337 1.93325 1.93337 1.33325 2.66671 1.33325H9.33337C10.0667 1.33325 10.6667 1.93325 10.6667 2.66659" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</g>
+									<defs>
+									<clipPath id="clip0_4073_12">
+									<rect width="16" height="16" fill="currentColor"/>
+									</clipPath>
+									</defs>
+								</svg>
+							</span>
+						</div>
+
+						<div class="tabs__body">
+							<div class="tab current">
+								<div class="codeblock">
+									<pre class="language-js js-entry-code" data-ajax="https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/orchestration/api-orchestration"><code>Loading...</code></pre>
+								</div>
+							</div>
+
+							<div class="tab current">
+								<div class="box-preview">
+									<div class="box__head">
+										<p>https://www.edgecompute.live/api-orch</p>
+									</div>
+
+									<div class="box__body">
+										<iframe src="https://www.edgecompute.live/api-orch" width="100%" height="400" frameborder="0"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tabs__info">
+							<p>Copied to clipboard!</p>
+						</div>
+					</div>
+
+					
+						<div class="section__entry">
+							<p>Merging multiple internal APIs at the edge streamlines data delivery, reduces latency, and improves user experience by providing a unified API response. This approach also reduces the load on origin servers and enhances application performance.</p>
+						</div>
+					
+
+					<div class="features">
+						<div class="grid">
+							
+								<div class="grid__col grid__col--1of2">
+									<div class="feature feature--alt">
+    <div class="feature__head">
+        <span class="feature__icon">
+            
+                <img src="/images/icon-landscape.svg" alt="Icon landscape">
+            
+        </span>
+    </div>
+
+    <div class="feature__entry">
+        <h5>Dynamic Flexibilty</h5>
+        <p>Modify in-flight content on its way between client and origin server and back to clients.</p>
+    </div>
+</div>
+
+								</div>
+							
+								<div class="grid__col grid__col--1of2">
+									<div class="feature feature--alt">
+    <div class="feature__head">
+        <span class="feature__icon">
+            
+                <img src="/images/icon-landscape.svg" alt="Icon landscape">
+            
+        </span>
+    </div>
+
+    <div class="feature__entry">
+        <h5>Ease Development</h5>
+        <p>Enable developers to modify application behavior without touching origin server logic.</p>
+    </div>
+</div>
+
+								</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="section__outro">
+					<div class="section__cards">
+						<div class="section__cards-head">
+							<h3>Related Examples</h3>
+
+							
+							<a href="/examples/" class="btn btn--medium btn--outline-black">View More</a>
+						</div>
+
+						<div class="cards">
+							<div class="grid">
+								<div class="grid__col grid__col--1of3">
+									<div class="card">
+										<a href="#"></a>
+
+										<div class="card__head">
+											<span class="card__icon">
+												<img src="/images/icon-ecommerce.svg" alt="Icon ecommerce">
+											</span>
+
+											<picture class="card__background">
+												<img src="/images/card-bg.png" alt="Card background">
+											</picture>
+										</div>
+
+										<div class="card__body">
+											<div class="card__tags">
+												<ul>
+													<li>
+														<a href="#" class="type-tag">Ecommerce</a>
+													</li>
+												</ul>
+											</div>
+
+											<div class="card__entry">
+												<h5>Ecommerce</h5>
+
+												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+											</div>
+
+											<span class="btn btn--blue card__btn">View Case</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="grid__col grid__col--1of3">
+									<div class="card">
+										<a href="#"></a>
+
+										<div class="card__head">
+											<span class="card__icon">
+												<img src="/images/icon-ecommerce.svg" alt="Icon ecommerce">
+											</span>
+
+											<picture class="card__background">
+												<img src="/images/card-bg.png" alt="Card background">
+											</picture>
+										</div>
+
+										<div class="card__body">
+											<div class="card__tags">
+												<ul>
+													<li>
+														<a href="#" class="type-tag">Ecommerce</a>
+													</li>
+												</ul>
+											</div>
+
+											<div class="card__entry">
+												<h5>Ecommerce</h5>
+
+												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+											</div>
+
+											<span class="btn btn--blue card__btn">View Case</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="grid__col grid__col--1of3">
+									<div class="card">
+										<a href="#"></a>
+
+										<div class="card__head">
+											<span class="card__icon">
+												<img src="/images/icon-ecommerce.svg" alt="Icon ecommerce">
+											</span>
+
+											<picture class="card__background">
+												<img src="/images/card-bg.png" alt="Card background">
+											</picture>
+										</div>
+
+										<div class="card__body">
+											<div class="card__tags">
+												<ul>
+													<li>
+														<a href="#" class="type-tag">Ecommerce</a>
+													</li>
+												</ul>
+											</div>
+
+											<div class="card__entry">
+												<h5>Ecommerce</h5>
+
+												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
+											</div>
+
+											<span class="btn btn--blue card__btn">View Case</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+  
+
+  
+  
+
+			</main>
+
+			<footer class="footer bg--light-blue">
+				<div class="shell">
+	<div class="footer__intro">
+		<div class="footer__entry">
+			<h2>Our Customers</h2>
+
+			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+
+			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+		</div>
+
+		<a href="#" class="btn">Contact Us</a>
+	</div>
+
+	<div class="footer__content">
+		<a href="http://localhost:1313/" class="footer__logo">
+			<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+		</a>
+
+		<div class="footer__inner">
+			<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
+
+			<div class="footer__actions">
+				<ul>
+					<li>
+						<a href="#">Terms &#38; Conditions</a>
+					</li>
+
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+
+
+      <script src="/js/main.js"></script>
+
+
+
+			</footer>
+		</div>
+	</body>
+</html>

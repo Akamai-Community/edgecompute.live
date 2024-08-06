@@ -203,6 +203,7 @@
 			})
 			.catch(error => {
 				console.error(error);
+				$codeContainer.text('Source code not available for this example.');
 			});
 	});
 

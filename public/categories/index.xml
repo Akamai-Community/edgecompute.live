@@ -8,10 +8,66 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Auth</title>
+      <link>http://localhost:1313/categories/auth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/auth/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Developer Tools</title>
       <link>http://localhost:1313/categories/developer-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/developer-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecommerce</title>
+      <link>http://localhost:1313/categories/ecommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ecommerce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geolocation</title>
+      <link>http://localhost:1313/categories/geolocation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/geolocation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marketing</title>
+      <link>http://localhost:1313/categories/marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/marketing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Miscellaneous</title>
+      <link>http://localhost:1313/categories/miscellaneous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/miscellaneous/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>http://localhost:1313/categories/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/categories/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Traffic Routing</title>
+      <link>http://localhost:1313/categories/traffic-routing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/traffic-routing/</guid>
       <description></description>
     </item>
   </channel>

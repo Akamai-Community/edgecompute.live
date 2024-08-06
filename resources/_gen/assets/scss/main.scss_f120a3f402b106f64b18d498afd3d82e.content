@@ -581,7 +581,7 @@
   border-radius: .4rem;
   background-color: var(--c-white);
   box-shadow: 0 0.4rem 0.8rem -0.2rem rgba(7, 50, 68, 0.05);
-  padding: 2.8rem 2.8rem 4rem;
+  padding: 2.8rem 2.8rem 8.2rem;
   text-align: center; }
   .card > a:first-child {
     position: absolute;
@@ -637,10 +637,21 @@
       color: var(--c-black-2); }
       .card .card__entry h5:last-child {
         margin-bottom: 0; }
+    .card .card__entry p {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden; }
   .card .card__btn {
     font-size: 1.6rem;
     line-height: 1;
-    padding: 1.2rem 1.6rem; }
+    padding: 1.2rem 1.6rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%); }
   .card .card__background {
     position: absolute;
     top: 0;
@@ -665,6 +676,9 @@
 .cards .grid {
   --gap-x: 2.4rem;
   --gap-y: 2.4rem; }
+
+.cards .card {
+  min-height: 100%; }
 
 .cards .grid__col--1of2 .card {
   padding: 0;
@@ -984,7 +998,14 @@
     color: var(--c-black-2);
     font-size: 1.4rem;
     line-height: 1.14;
-    padding: .8rem; }
+    padding: .8rem;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: ellipsis;
+    -ms-overflow-style: none;
+    scrollbar-width: none; }
+    .box-preview .box__head p::-webkit-scrollbar {
+      display: none; }
 
 .box-preview .box__body {
   overflow-y: auto;
@@ -1142,8 +1163,7 @@ pre[class*=language-] {
   color: #690; }
 
 .language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
-  color: #9a6e3a;
-  background: rgba(255, 255, 255, 0.5); }
+  color: #9a6e3a; }
 
 .token.atrule, .token.attr-value, .token.keyword {
   color: #07a; }

@@ -8,7 +8,7 @@
 	border-radius: .4rem;
 	background-color: var(--c-white);
 	box-shadow: 0 .4rem .8rem -.2rem rgba($color: #073244, $alpha: .05);
-	padding: 2.8rem 2.8rem 4rem;
+	padding: 2.8rem 2.8rem 8.2rem;
 	text-align: center;
 
 	> a:first-child {
@@ -94,12 +94,26 @@
 				margin-bottom: 0;
 			}
 		}
+
+		p {
+			text-overflow: ellipsis;
+  			overflow: hidden;
+  			// white-space: nowrap;
+			display: -webkit-box;
+			-webkit-line-clamp: 4;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
 	}
 
 	.card__btn {
 		font-size: 1.6rem;
 		line-height: 1;
 		padding: 1.2rem 1.6rem;
+		position: absolute;
+		bottom: 4rem;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.card__background {
@@ -134,6 +148,10 @@
 	.grid {
 		--gap-x: 2.4rem;
 		--gap-y: 2.4rem;
+	}
+
+	.card {
+		min-height: 100%;
 	}
 
 	.grid__col--1of2 {

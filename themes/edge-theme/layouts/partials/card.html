@@ -1,0 +1,48 @@
+<div class="card">
+    <a href="{{ .RelPermalink }}"></a>
+
+    <div class="card__head">
+        <span class="card__icon">
+			{{- $iconMap := dict
+				"Developer Tools" "icon-command-line-small.svg"
+				"Geolocation" "icon-geolocation-small.svg"
+				"Ecommerce" "icon-squares-orange.svg"
+				"Security" "icon-shield-small.svg"
+				"Traffic Routing" "icon-arrows-small.svg"
+				"Performance" "icon-timer-small.svg"
+				"Miscellaneous" "icon-list-small.svg"
+				"default" "icon-landscape-orange.svg"
+			-}}
+
+            {{- $firstCategory := index .Params.categories 0 -}}
+            {{- $iconName := index $iconMap $firstCategory | default (index $iconMap "default") -}}
+            {{- with $image := resources.GetMatch (printf "images/%s" $iconName) -}}
+                <img src="{{ $image.RelPermalink }}" alt="Icon {{ .Params.title }}">
+            {{- end -}}
+        </span><!-- /.card__icon -->
+
+        <picture class="card__background">
+            {{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
+        </picture><!-- /.card__background -->
+    </div><!-- /.card__head -->
+
+    <div class="card__body">
+        <div class="card__tags">
+            <ul>
+                {{ range .Params.categories }}
+                <li>
+                    <a href="#" class="type-tag">{{ . }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div><!-- /.card__tags -->
+
+        <div class="card__entry">
+            <h5>{{ .Params.title }}</h5>
+
+            <p>{{ .Params.description }}</p>
+        </div><!-- /.card__entry -->
+
+        <span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
+    </div><!-- /.card__body -->
+</div><!-- /.card -->
