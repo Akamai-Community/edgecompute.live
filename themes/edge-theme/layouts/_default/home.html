@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<div class="hero" role="region" aria-labelledby="hero banner">
+	<div class="hero" role="region" aria-labelledby="hero-heading">
 		<div class="shell">
 			<picture class="hero__background">
 				{{ $image := resources.GetMatch "images/hero.jpg" }}
@@ -9,7 +9,7 @@
 			</picture>
 
 			<div class="hero__inner">
-				<h1>Deliver Faster Websites with Akamai EdgeWorkers</h1>
+				<h1 id="hero-heading">Deliver Faster Websites with Akamai EdgeWorkers</h1>
 
 				<div class="hero__entry">
 					<p>Run code on the most distributed edge compute platform in the world to cut down latency, speed up response times, improve performance, and deliver a better user experience.</p>
@@ -29,7 +29,7 @@
 		</div><!-- /.shell -->
 	</div><!-- /.hero -->
 
-	<section class="section-benefits bg--light-blue" role="region" aria-labelledby="benefits">
+	<section class="section-benefits bg--light-blue" role="region" aria-label="Benefits">
 		<div class="shell">
 			<div class="boxes-benefits">
 				<div class="grid">
@@ -135,10 +135,10 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-features" role="region" aria-labelledby="features">
+	<section class="section-features" role="region" aria-labelledby="features-heading">
 		<div class="shell">
 			<header class="section__head">
-				<h2>Feature Benefits</h2>
+				<h2 id="features-heading">Feature Benefits</h2>
 			</header><!-- /.section__head -->
 
 			<div class="section__body">
@@ -277,7 +277,7 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-banner" role="region" aria-labelledby="banner-call-to-action">
+	<section class="section-banner" role="region" aria-labelledby="banner-heading">
 		<div class="shell">
 			<picture class="section__background">
 				{{ with $image := resources.GetMatch "images/banner-bg.jpg" }}<img src="{{ $image.RelPermalink }}" alt="Banner background">{{ end }}
@@ -286,12 +286,12 @@
 			<div class="section__inner">
 				<div class="section__content">
 					<div class="section__entry">
-						<h2>Discover How EdgeWorkers Work</h2>
+						<h2 id="banner-heading">Discover How EdgeWorkers Work</h2>
 
 						<p>See how Akamai's EdgeWorkers enable faster, more efficient web applications by running code at the edge.</p>
 					</div><!-- /.section__entry -->
 
-					<a href="#" class="btn-play">
+					<a href="https://www.youtube.com/watch?v=eEIacL_P-Oc" class="btn-play" data-magnific-popup="iframe">
 						<figure>
 							{{ with $image := resources.GetMatch "images/icon-play.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon play">{{ end }}
 						</figure>
@@ -303,10 +303,10 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-boxes bg--orange" role="region" aria-labelledby="what-are-you-looking-to-do">
+	<section class="section-boxes bg--orange" role="region" aria-labelledby="boxes-heading">
 		<div class="shell">
 			<header class="section__head">
-				<h2>What are you looking to do?</h2>
+				<h2 id="boxes-heading">What are you looking to do?</h2>
 
 				<div class="section__actions">
 					<ul>
@@ -465,10 +465,10 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-boxes" role="region" aria-labelledby="featured-code-examples">
+	<section class="section-boxes" role="region" aria-labelledby="examples-heading">
 		<div class="shell">
 			<header class="section__head">
-				<h2>Featured Code Examples</h2>
+				<h2 id="examples-heading">Featured Code Examples</h2>
 
 				<div class="section__actions">
 					<ul>
@@ -485,12 +485,4 @@
 			</div><!-- /.section__body -->
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
-
-	{{/*  {{ .Content }}
-
-	{{ range site.RegularPages }}
-    	<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-
-		{{ .Summary }}
-	{{ end }}  */}}
 {{ end }}

@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="section-single-post">
+<section class="section-single-post" role="region" aria-labelledby="example-heading">
 	<div class="shell">
 		<div class="section__inner">
 			<div class="section__aside">
@@ -59,7 +59,7 @@
 								{{ partial "terms.html" (dict "taxonomy" "categories" "page" . "className" "type-tag") }}
 							</div><!-- /.section__tags -->
 
-							<h2>{{ .Title }}</h2>
+							<h2 id="example-heading">{{ .Title }}</h2>
 
 							<p>Last updated on <span class="js-time-updated" data-api-url="{{ .Params.giturl }}"></span></p>
 						</div><!-- /.section__info -->
