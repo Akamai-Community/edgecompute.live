@@ -554,7 +554,7 @@
         
             <div class="grid__col grid__col--1of2">
                 <div class="card">
-    <a href="/examples/content-security-policy/"></a>
+    <a href="/examples/product-url-redirects/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -569,7 +569,7 @@
             
 
             
-                <img src="/images/icon-shield-small.svg" alt="Icon ">
+                <img src="/images/icon-squares-orange.svg" alt="Icon ">
             
         </span>
 
@@ -583,16 +583,20 @@
             <ul>
                 
                 <li>
-                    <a href="./categories/security" class="type-tag">Security</a>
+                    <a href="http://localhost:1313/categories/ecommerce" class="type-tag">Ecommerce</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:1313/categories/traffic-routing" class="type-tag">Traffic Routing</a>
                 </li>
                 
             </ul>
         </div>
 
         <div class="card__entry">
-            <h5>Content Security Policy</h5>
+            <h5>Product URL Redirects</h5>
 
-            <p>A Content Security Policy (CSP) is a security feature implemented in web browsers to protect websites and web applications from attacks such as cross-site scripting (XSS) and data injection. CSP controls and limits the source of various types of content loaded and executed on a web page, including scripts, stylesheets, and images. EdgeWorkers provides numerous performance benefits for CSPs, which need to complement the security measures on the application server-side.</p>
+            <p>Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews <!-- raw HTML omitted --><!-- raw HTML omitted -->This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.</p>
         </div>
 
         <span class="btn btn--blue card__btn">View Case</span>
@@ -634,7 +638,7 @@
             <ul>
                 
                 <li>
-                    <a href="./categories/marketing" class="type-tag">Marketing</a>
+                    <a href="http://localhost:1313/categories/marketing" class="type-tag">Marketing</a>
                 </li>
                 
             </ul>
@@ -656,7 +660,7 @@
         
             <div class="grid__col grid__col--1of4">
                 <div class="card">
-    <a href="/examples/product-url-redirects/"></a>
+    <a href="/examples/content-security-policy/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -671,7 +675,7 @@
             
 
             
-                <img src="/images/icon-squares-orange.svg" alt="Icon ">
+                <img src="/images/icon-shield-small.svg" alt="Icon ">
             
         </span>
 
@@ -685,20 +689,16 @@
             <ul>
                 
                 <li>
-                    <a href="./categories/ecommerce" class="type-tag">Ecommerce</a>
-                </li>
-                
-                <li>
-                    <a href="./categories/traffic-routing" class="type-tag">Traffic Routing</a>
+                    <a href="http://localhost:1313/categories/security" class="type-tag">Security</a>
                 </li>
                 
             </ul>
         </div>
 
         <div class="card__entry">
-            <h5>Product URL Redirects</h5>
+            <h5>Content Security Policy</h5>
 
-            <p>Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews <!-- raw HTML omitted --><!-- raw HTML omitted -->This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.</p>
+            <p>A Content Security Policy (CSP) is a security feature implemented in web browsers to protect websites and web applications from attacks such as cross-site scripting (XSS) and data injection. CSP controls and limits the source of various types of content loaded and executed on a web page, including scripts, stylesheets, and images. EdgeWorkers provides numerous performance benefits for CSPs, which need to complement the security measures on the application server-side.</p>
         </div>
 
         <span class="btn btn--blue card__btn">View Case</span>
