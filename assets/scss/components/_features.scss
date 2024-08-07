@@ -6,6 +6,18 @@
 	.grid {
 		--gap-x: 2.4rem;
 		--gap-y: 2.4rem;
+
+		.grid__col--1of4 {
+			@include breakpoint-down(tablet) {
+				max-width: 50%;
+				flex: 0 0 50%;
+			}
+
+			@include breakpoint-down(mobile) {
+				max-width: 100%;
+				flex: 0 0 100%;
+			}
+		}
 	}
 
 	.feature {
@@ -19,6 +31,10 @@
 	overflow: hidden;
 	background-color: var(--c-orange-3);
 	padding: 4rem 3.2rem 3.2rem;
+
+	@include breakpoint-down(mobile) {
+		padding: 2rem;
+	}
 
 	.feature__head {
 		display: flex;

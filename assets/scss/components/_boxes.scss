@@ -1,17 +1,18 @@
 /* ------------------------------------------------------------ *\
-	.boxes-benefits
+	.boxes
 \* ------------------------------------------------------------ */
 
-.boxes-benefits {
-	.box-benefits {
-		height: 100%;
-	}
-
+.boxes {
 	.grid {
-		.grid__col--1of2 {
+		.grid__col--1of3 {
 			@include breakpoint-down(tablet) {
-				max-width: 100%;
+				flex: 0 0 50%;
+				max-width: 50%;
+			}
+
+			@include breakpoint-down(mobile) {
 				flex: 0 0 100%;
+				max-width: 100%;
 			}
 		}
 	}

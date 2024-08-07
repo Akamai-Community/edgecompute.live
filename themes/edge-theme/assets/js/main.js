@@ -317,4 +317,11 @@
             }
         }
     });
+
+	/**
+	 * Handle Menu.
+	 */
+	$('.nav-btn').on('click', function(e) {
+		$('body').toggleClass('nav-open');
+	});
 })(jQuery, window, document);

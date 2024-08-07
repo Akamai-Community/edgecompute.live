@@ -5,6 +5,10 @@
 .section-benefits {
 	padding: 0 0 11.4rem;
 
+	@include breakpoint-down(mobile) {
+		padding-bottom: 6rem;
+	}
+
 	.boxes-benefits {
 		position: relative;
 		margin-top: -10rem;

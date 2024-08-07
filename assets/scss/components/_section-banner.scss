@@ -6,6 +6,10 @@
 	padding: 17.5rem 0 6.1rem;
 	position: relative;
 
+	@include breakpoint-down(mobile) {
+		padding: 25rem 0 2rem;
+	}
+
 	.section__background {
 		position: absolute;
 		top: 0;
@@ -30,6 +34,10 @@
 		margin-left: auto;
 		max-width: 65.2rem;
 		padding: 6.4rem;
+
+		@include breakpoint-down(mobile) {
+			padding: 3rem;
+		}
 	}
 
 	.section__entry {

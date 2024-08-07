@@ -16,6 +16,19 @@
 		width: 100%;
 		height: 100%;
 
+		&:after {
+			@include breakpoint-down(mobile) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: var(--c-black-2);
+				opacity: .6;
+				content: '';
+			}
+		}
+
 		img {
 			width: 100%;
 			height: 100%;

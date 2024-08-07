@@ -159,21 +159,39 @@
 	}
 
 	.grid__col--1of2 {
+		@include breakpoint-down(mobile) {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
 		.card {
 			padding: 0;
 			display: flex;
 			text-align: left;
 
+			@include breakpoint-down(tablet) {
+				flex-direction: column;
+			}
+
 			.card__head,
 			.card__body {
 				flex: 0 0 50%;
 				max-width: 50%;
+
+				@include breakpoint-down(tablet) {
+					flex: unset;
+					max-width: 100%;
+				}
 			}
 
 			.card__head {
 				display: flex;
 				align-items: center;
 				margin-bottom: 0;
+
+				@include breakpoint-down(tablet) {
+					padding: 4rem;
+				}
 			}
 
 			.card__icon {
@@ -194,6 +212,10 @@
 
 			.card__body {
 				padding: 8.6rem 4.8rem;
+
+				@include breakpoint-down(tablet) {
+					padding: 3rem;
+				}
 			}
 
 			.card__btn {
@@ -218,6 +240,23 @@
 					margin-bottom: .8rem;
 				}
 			}
+		}
+	}
+
+	.grid__col--1of4 {
+		@include breakpoint-down(small-desktop) {
+			max-width: 33.33%;
+			flex: 0 0 33.33%;
+		}
+
+		@include breakpoint-down(tablet) {
+			max-width: 50%;
+			flex: 0 0 50%;
+		}
+
+		@include breakpoint-down(mobile) {
+			max-width: 100%;
+			flex: 0 0 100%;
 		}
 	}
 }

@@ -21,6 +21,18 @@
 	--c-orange-3: rgba(248, 153, 56, 0.1);
 }
 
+@media (max-width: 1079px) {
+	:root {
+		--fz-html: 57%;
+	}
+}
+
+@media (max-width: 767px) {
+	:root {
+		--fz-html: 50%;
+	}
+}
+
 /* ------------------------------------------------------------ *\
 	Reset
 \* ------------------------------------------------------------ */
@@ -271,10 +283,24 @@ h1 {
 	line-height: 1.14;
 }
 
+@media (max-width: 1079px) {
+	.level-1,
+	h1 {
+		font-size: 4.6rem;
+	}
+}
+
 .level-2,
 h2 {
 	font-size: 4.6rem;
 	line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+	.level-2,
+	h2 {
+		font-size: 3.6rem;
+	}
 }
 
 .level-3,

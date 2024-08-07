@@ -9,6 +9,12 @@
 		--gap-x: 4rem;
 		--gap-y: 0px;
 		margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
+
+		@include breakpoint-down(tablet) {
+			display: block;
+			text-align: center;
+			--gap-y: 2rem;
+		}
 	}
 
 	li {

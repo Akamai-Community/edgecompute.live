@@ -92,6 +92,10 @@
 			top: 49%;
 			left: 53%;
 			transform: translate(-50%, -50%);
+
+			@include breakpoint-down(mobile) {
+				transform: translate(-50%, -50%) scale(0.6);
+			}
 		}
 	}
 }

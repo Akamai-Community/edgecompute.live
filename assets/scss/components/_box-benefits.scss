@@ -15,22 +15,41 @@
 		line-height: 1.45;
 		padding: 4rem;
 
+		@include breakpoint-down(mobile) {
+			display: block;
+			padding: 2rem;
+		}
+
 		h3 {
 			max-width: 24rem;
 			margin-right: 1.6rem;
 			margin-bottom: 1.4rem;
 			flex: 0 0 50%;
 
+			@include breakpoint-down(mobile) {
+				max-width: 100%;
+			}
+
 			em {
 				font-size: 2.8rem;
 				line-height: 1.428;
 				font-weight: 400;
+			}
+
+			br {
+				@include breakpoint-down(mobile) {
+					display: none;
+				}
 			}
 		}
 	}
 
 	.box__body {
 		padding: 4rem 5.6rem 6.4rem;
+
+		@include breakpoint-down(mobile) {
+			padding: 4rem;
+		}
 	}
 
 	.box__info {
