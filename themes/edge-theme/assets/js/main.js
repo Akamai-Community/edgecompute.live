@@ -147,13 +147,37 @@
 
 		if($target == '*') {
 			$tabs.addClass('current');
+
+			$this.closest('.js-tabs').addClass('is-both');
 		} else {
 			$tabs.eq($target - 1)
 				.addClass('current')
 			.siblings()
 				.removeClass('current');
+
+			$this.closest('.js-tabs').removeClass('is-both');
 		}
 	}
+
+    /**
+	 * Convert category name to URL-friendly.
+	 *
+	 * @param {String} str
+	 * @returns {String}
+	 */
+	function toUrlFriendly(str) {
+        return str.toLowerCase().replace(/\s+/g, '-');
+    }
+
+    /**
+	 * Convert URL to category name.
+	 *
+	 * @param {String} str
+	 * @returns {String}
+	 */
+	function fromUrlFriendly(str) {
+        return str.replace(/-/g, ' ');
+    }
 
 	/**
 	 * Handle tab switch.
@@ -244,4 +268,37 @@
 		});
 	});
 
+
+	/**
+	 * Handle select filter.
+	 */
+	const pathArray = window.location.pathname.split('/');
+	const categoryFromURL = fromUrlFriendly(decodeURIComponent(pathArray[2]));
+	const isFoundCategory = $('#category option').filter((_, option) => $(option).val() === categoryFromURL).length > 0;
+
+	if (isFoundCategory) {
+        $('#category').val(categoryFromURL);
+    }
+
+	$('.js-filters-apply').on('click', function(e) {
+		e.preventDefault();
+
+		const selectedCategory = toUrlFriendly($('#category').val());
+		if (selectedCategory) {
+			window.location.href = '/categories/' + encodeURIComponent(selectedCategory) + '/';
+		} else if (selectedCategory == '') {
+			window.location.href = '/examples/';
+		}
+	});
+
+	/**
+	 * Handle Example Demo change.
+	 */
+	$('.section__nav').on('click', 'a[data-demo-url]', function(e) {
+        e.preventDefault();
+
+        const newSrc = $(this).data('demo-url');
+        $('.js-demo-iframe').attr('src', newSrc);
+        $('.js-demo-url').text(newSrc);
+    });
 })(jQuery, window, document);

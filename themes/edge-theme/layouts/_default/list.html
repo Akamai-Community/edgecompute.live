@@ -2,7 +2,7 @@
 
 	<section class="section-intro bg--light-blue">
 		<div class="shell">
-			<h1>{{ .Title }}</h1>
+			<h1>Examples</h1>
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
@@ -11,19 +11,26 @@
 			<header class="section__head">
 				<div class="filters js-filters">
 					<div class="select">
-						<select name="" id="">
-							<option selected>Filter</option>
+						<select name="category" id="category">
+							<option value="">Filter</option>
+							{{ $categories := .Site.Taxonomies.categories }}
+							{{ range $name, $taxonomy := $categories }}
+								<option value="{{ $name }}">
+									{{ $name | title }}
+								</option>
+							{{ end }}
 						</select>
 					</div><!-- /.select -->
 
 					<div class="filters__actions">
 						<ul>
 							<li>
-								<a href="#" class="btn js-filters-apply">Apply</a><!-- /.btn -->
+								<button type="submit" class="btn js-filters-apply">Apply</button><!-- /.btn -->
 							</li>
 
 							<li>
-								<a href="#" class="btn btn--outline-black js-filters-reset">Reset</a><!-- /.btn btn--outline-black -->
+								{{ $examplesURL := site.GetPage "section" "examples" }}
+								<a href="{{ $examplesURL.RelPermalink }}" class="btn btn--outline-black js-filters-reset">Reset</a><!-- /.btn btn--outline-black -->
 							</li>
 						</ul>
 					</div><!-- /.filters__actions -->
@@ -34,7 +41,17 @@
 				<div class="listing js-listing">
 					<div class="cards">
 						<div class="grid">
-							{{ range where (where .Site.Pages "Type" "examples") "Kind" "page" }}
+							{{/*  {{ $category := .Params.term }}  */}}
+
+							{{/*  {{ $filteredPages := where (where .Site.Pages "Type" "examples") "Kind" "page" }}
+
+							{{ if $category }}
+								{{ $filteredPages = where $filteredPages "Params.categories" "in" $category }}
+							{{ end }}  */}}
+
+							{{ $paginator := .Paginate .Pages }}
+
+							{{ range $paginator.Pages }}
 								<div class="grid__col grid__col--1of3">
 									{{ partial "card.html" . }}
 								</div><!-- /.grid__col grid__col--1of3 -->
@@ -43,40 +60,160 @@
 					</div><!-- /.cards -->
 
 					<nav class="listing__nav">
-						<ul>
-							<li>
-								<a href="#" class="js-listing-prev">
+						{{ $adjacent_links := 1 }}
+						{{ if gt $paginator.TotalPages 1 }}
+
+						<ul class="pagination">
+							{{ if $paginator.HasPrev }}
+							<li class="pagination__item pagination__item--previous">
+								<a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
 									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M10 12L6 8L10 4" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 									</svg>
 								</a>
 							</li>
+							{{ end }}
 
-							<li class="current">
-								<a href="#">1</a>
+							{{ if eq $paginator.TotalPages 3 }}
+							<!-- Special case for exactly 3 pages -->
+							{{ range $paginator.Pagers }}
+							<li class="pagination__item {{ if eq .PageNumber $paginator.PageNumber }}pagination__item--current{{ end }}">
+								<a href="{{ .URL }}" class="pagination__link">
+									{{ .PageNumber }}
+								</a>
 							</li>
+							{{ end }}
 
-							<li>
-								<a href="#">2</a>
-							</li>
+							{{ else }}
+								{{ if eq $paginator.PageNumber 1 }}
+								<li class="pagination__item pagination__item--current">
+									<a href="#" class="pagination__link">
+										{{ $paginator.PageNumber }}
+									</a>
+								</li>
 
-							<li>
-								<a href="#">...</a>
-							</li>
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers 1).URL }}" class="pagination__link">
+										{{ add $paginator.PageNumber 1 }}
+									</a>
+								</li>
 
-							<li>
-								<a href="#">9</a>
-							</li>
+								{{ if gt $paginator.TotalPages 2 }}
+									<li>
+										<span>...</span>
+									</li>
 
-							<li>
-								<a href="#" class="js-listing-next">
+									<li class="pagination__item">
+										<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 1)).URL }}" class="pagination__link">
+											{{ $paginator.TotalPages }}
+										</a>
+									</li>
+								{{ end }}
+
+								{{ else if eq $paginator.PageNumber $paginator.TotalPages }}
+								{{ if gt $paginator.TotalPages 2 }}
+									<li class="pagination__item">
+										<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 3)).URL }}" class="pagination__link">
+											{{ sub $paginator.PageNumber 2 }}
+										</a>
+									</li>
+								{{ end }}
+
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 2)).URL }}" class="pagination__link">
+										{{ sub $paginator.PageNumber 1 }}
+									</a>
+								</li>
+
+								<li class="pagination__item pagination__item--current">
+									<a href="#" class="pagination__link">
+										{{ $paginator.PageNumber }}
+									</a>
+								</li>
+								{{ else if eq $paginator.PageNumber (sub $paginator.TotalPages 1) }}
+								{{ if gt $paginator.TotalPages 2 }}
+									<li class="pagination__item">
+										<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 3)).URL }}" class="pagination__link">
+											{{ sub $paginator.PageNumber 1 }}
+										</a>
+									</li>
+								{{ end }}
+
+								<li class="pagination__item pagination__item--current">
+									<a href="#" class="pagination__link">
+										{{ $paginator.PageNumber }}
+									</a>
+								</li>
+
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 1)).URL }}" class="pagination__link">
+										{{ add $paginator.PageNumber 1 }}
+									</a>
+								</li>
+								{{ else if eq $paginator.PageNumber (sub $paginator.TotalPages 2) }}
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 4)).URL }}" class="pagination__link">
+										{{ sub $paginator.PageNumber 1 }}
+									</a>
+								</li>
+
+								<li class="pagination__item pagination__item--current">
+									<a href="#" class="pagination__link">
+										{{ $paginator.PageNumber }}
+									</a>
+								</li>
+
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 2)).URL }}" class="pagination__link">
+										{{ add $paginator.PageNumber 1 }}
+									</a>
+								</li>
+
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 1)).URL }}" class="pagination__link">
+										{{ $paginator.TotalPages }}
+									</a>
+								</li>
+								{{ else }}
+
+								<li class="pagination__item pagination__item--current">
+									<a href="#" class="pagination__link">
+										{{ $paginator.PageNumber }}
+									</a>
+								</li>
+
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers $paginator.PageNumber).URL }}" class="pagination__link">
+										{{ add $paginator.PageNumber 1 }}
+									</a>
+								</li>
+
+								<li>
+									<span>...</span>
+								</li>
+
+								<li class="pagination__item">
+									<a href="{{ (index $paginator.Pagers (sub $paginator.TotalPages 1)).URL }}" class="pagination__link">
+										{{ $paginator.TotalPages }}
+									</a>
+								</li>
+								{{ end }}
+
+							{{ end }}
+
+							{{ if $paginator.HasNext }}
+							<li class="pagination__item pagination__item--next">
+								<a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
 									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M6 12L10 8L6 4" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 									</svg>
 								</a>
 							</li>
-						</ul>
+							{{ end }}
+						</ul><!-- .pagination -->
+						{{ end }}
 					</nav><!-- /.listing__nav -->
+
 				</div><!-- /.listing js-listing -->
 			</div><!-- /.section__body -->
 		</div><!-- /.shell -->

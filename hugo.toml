@@ -4,5 +4,20 @@ title = 'Edge Compute Live'
 theme = 'edge-theme'
 disableKinds = ["tags"]
 ignoreErrors = ["error-disable-taxonomy"]
+paginate = 15
+
 [taxonomies]
-  category = "categories"
+	category = "categories"
+
+[related]
+includeNewer = false
+threshold = 80
+toLower = false
+
+[[related.indices]]
+name = "categories"
+weight = 100
+
+[[related.indices]]
+name = "date"
+weight = 10

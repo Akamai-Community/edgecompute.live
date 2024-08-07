@@ -8,7 +8,7 @@ icon = ''
 features = ['responseProvider']
 useCase = 'Generating dynamic HTML content at the edge enhances performance, reduces server load, and provides SEO benefits. Caching templates, JSON data, and rendered content at the edge optimizes response times and improves the overall user experience.'
 featured = false
-demoURL = 'https://www.edgecompute.live/edgeworkers/html_rewriter_content_assembly/menu_template.html'
+demoURLs = ['https://www.edgecompute.live/edgeworkers/html_rewriter_content_assembly/menu_template.html', 'https://www.edgecompute.live/edgeworkers/html_rewriter_content_assembly/menujson.json', 'https://www.edgecompute.live/html_rewriter_content_assembly', 'https://www.edgecompute.live/html_rewriter_content_assembly?loggedIn=true']
 gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/stream/dynamic%20content%20assembly'
 
 [benefits]

@@ -7,13 +7,17 @@
 					<p>Examples</p>
 
 					<ul>
-						<li>
-							<a href="#">Example A</a>
-						</li>
-
-						<li>
-							<a href="#">Example B</a>
-						</li>
+						{{ with .Params.demoURLs }}
+							{{ range $index, $url := . }}
+								<li>
+									<a href="#" data-demo-url="{{ $url }}">Example {{ add $index 1 }}</a>
+								</li>
+							{{ end }}
+						{{ else }}
+							<li>
+								<a href="#" data-demo-url="{{ .Params.demoURL }}">Example 1</a>
+							</li>
+						{{ end }}
 					</ul>
 				</nav><!-- /.nav section__nav -->
 			</div><!-- /.section__aside -->
@@ -22,9 +26,31 @@
 				<div class="section__head">
 					<div class="section__banner">
 						<span class="section__icon">
-							{{ $iconUrl := .Params.icon }}
-							{{ with $image := resources.GetMatch (printf "images/%s" $iconUrl) }}
-								<img src="{{ $image.RelPermalink }}" alt="Example icon">
+							{{ $iconMap := dict
+								"Developer Tools" "icon-command-line-small.svg"
+								"Geolocation" "icon-geolocation-small.svg"
+								"Ecommerce" "icon-squares-orange.svg"
+								"Security" "icon-shield-small.svg"
+								"Traffic Routing" "icon-arrows-small.svg"
+								"Performance" "icon-timer-small.svg"
+								"Miscellaneous" "icon-list-small.svg"
+								"default" "icon-landscape-orange.svg"
+							}}
+
+							{{ $firstCategory := "" }}
+							{{ if .Params.categories }}
+								{{ $firstCategory = index .Params.categories 0 }}
+							{{ end }}
+							{{ $iconName := index $iconMap $firstCategory }}
+
+							{{ if not $iconName }}
+								{{ $iconName = index $iconMap "default" }}
+							{{ end }}
+
+							{{ with $image := resources.GetMatch (printf "images/%s" $iconName) }}
+								<img src="{{ $image.RelPermalink }}" alt="Icon {{ .Params.title }}">
+							{{ else }}
+								<img src="{{ "images/icon-landscape.svg" | relURL }}" alt="Default Icon {{ .Params.title }}">
 							{{ end }}
 						</span><!-- /.section__icon -->
 
@@ -51,7 +77,7 @@
 						</div><!-- /.section__entry -->
 					{{ end }}
 
-					<div class="tabs-code js-tabs">
+					<div class="tabs-code js-tabs is-both">
 						<div class="tabs__head">
 							<nav class="tabs__nav">
 								<ul>
@@ -94,11 +120,11 @@
 							<div class="tab current">
 								<div class="box-preview">
 									<div class="box__head">
-										<p>{{ .Params.demoURL }}</p>
+										<p class="js-demo-url">{{ with .Params.demoURLs }}{{ index . 0 }}{{ else }}{{ .Params.demoURL }}{{ end }}</p>
 									</div><!-- /.box__head -->
 
 									<div class="box__body">
-										<iframe src="{{ .Params.demoURL }}" width="100%" height="400" frameborder="0"></iframe>
+										<iframe src="{{ with .Params.demoURLs }}{{ index . 0 }}{{ else }}{{ .Params.demoURL }}{{ end }}" width="100%" height="400" frameborder="0" class="js-demo-iframe"></iframe>
 									</div><!-- /.box__body -->
 								</div><!-- /.box-preview -->
 							</div><!-- /.tab -->
@@ -135,111 +161,7 @@
 							<a href="{{ $examplesURL.RelPermalink }}" class="btn btn--medium btn--outline-black">View More</a>
 						</div><!-- /.section__cards-head -->
 
-						<div class="cards">
-							<div class="grid">
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-										<a href="#"></a>
-
-										<div class="card__head">
-											<span class="card__icon">
-												{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
-											</span><!-- /.card__icon -->
-
-											<picture class="card__background">
-												{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
-											</picture><!-- /.card__background -->
-										</div><!-- /.card__head -->
-
-										<div class="card__body">
-											<div class="card__tags">
-												<ul>
-													<li>
-														<a href="#" class="type-tag">Ecommerce</a>
-													</li>
-												</ul>
-											</div><!-- /.card__tags -->
-
-											<div class="card__entry">
-												<h5>Ecommerce</h5>
-
-												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
-											</div><!-- /.card__entry -->
-
-											<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
-										</div><!-- /.card__body -->
-									</div><!-- /.card -->
-								</div><!-- /.grid__col grid__col--1of3 -->
-
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-										<a href="#"></a>
-
-										<div class="card__head">
-											<span class="card__icon">
-												{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
-											</span><!-- /.card__icon -->
-
-											<picture class="card__background">
-												{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
-											</picture><!-- /.card__background -->
-										</div><!-- /.card__head -->
-
-										<div class="card__body">
-											<div class="card__tags">
-												<ul>
-													<li>
-														<a href="#" class="type-tag">Ecommerce</a>
-													</li>
-												</ul>
-											</div><!-- /.card__tags -->
-
-											<div class="card__entry">
-												<h5>Ecommerce</h5>
-
-												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
-											</div><!-- /.card__entry -->
-
-											<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
-										</div><!-- /.card__body -->
-									</div><!-- /.card -->
-								</div><!-- /.grid__col grid__col--1of3 -->
-
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-										<a href="#"></a>
-
-										<div class="card__head">
-											<span class="card__icon">
-												{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
-											</span><!-- /.card__icon -->
-
-											<picture class="card__background">
-												{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
-											</picture><!-- /.card__background -->
-										</div><!-- /.card__head -->
-
-										<div class="card__body">
-											<div class="card__tags">
-												<ul>
-													<li>
-														<a href="#" class="type-tag">Ecommerce</a>
-													</li>
-												</ul>
-											</div><!-- /.card__tags -->
-
-											<div class="card__entry">
-												<h5>Ecommerce</h5>
-
-												<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
-											</div><!-- /.card__entry -->
-
-											<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
-										</div><!-- /.card__body -->
-									</div><!-- /.card -->
-								</div><!-- /.grid__col grid__col--1of3 -->
-							</div><!-- /.grid -->
-						</div><!-- /.cards -->
+						{{ partial "related-cards.html" . }}
 					</div><!-- /.section__cards -->
 				</div><!-- /.section__outro -->
 			</div><!-- /.section__main -->

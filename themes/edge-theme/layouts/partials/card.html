@@ -3,7 +3,7 @@
 
     <div class="card__head">
         <span class="card__icon">
-			{{- $iconMap := dict
+			{{ $iconMap := dict
 				"Developer Tools" "icon-command-line-small.svg"
 				"Geolocation" "icon-geolocation-small.svg"
 				"Ecommerce" "icon-squares-orange.svg"
@@ -12,13 +12,23 @@
 				"Performance" "icon-timer-small.svg"
 				"Miscellaneous" "icon-list-small.svg"
 				"default" "icon-landscape-orange.svg"
-			-}}
+			}}
 
-            {{- $firstCategory := index .Params.categories 0 -}}
-            {{- $iconName := index $iconMap $firstCategory | default (index $iconMap "default") -}}
-            {{- with $image := resources.GetMatch (printf "images/%s" $iconName) -}}
+			{{ $firstCategory := "" }}
+            {{ if .Params.categories }}
+                {{ $firstCategory = index .Params.categories 0 }}
+            {{ end }}
+            {{ $iconName := index $iconMap $firstCategory }}
+
+            {{ if not $iconName }}
+                {{ $iconName = index $iconMap "default" }}
+            {{ end }}
+
+            {{ with $image := resources.GetMatch (printf "images/%s" $iconName) }}
                 <img src="{{ $image.RelPermalink }}" alt="Icon {{ .Params.title }}">
-            {{- end -}}
+            {{ else }}
+                <img src="{{ "images/icon-landscape.svg" | relURL }}" alt="Default Icon {{ .Params.title }}">
+            {{ end }}
         </span><!-- /.card__icon -->
 
         <picture class="card__background">
@@ -31,7 +41,7 @@
             <ul>
                 {{ range .Params.categories }}
                 <li>
-                    <a href="#" class="type-tag">{{ . }}</a>
+                    <a href="/categories/{{ . | urlize }}" class="type-tag">{{ . }}</a>
                 </li>
                 {{ end }}
             </ul>
@@ -40,7 +50,7 @@
         <div class="card__entry">
             <h5>{{ .Params.title }}</h5>
 
-            <p>{{ .Params.description }}</p>
+            <p>{{ .Params.description | markdownify }}</p>
         </div><!-- /.card__entry -->
 
         <span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->

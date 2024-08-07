@@ -8,10 +8,19 @@
 	border: 1px solid rgba($color: #909090, $alpha: 0.15);
 	margin-right: .7rem;
 	position: relative;
+	max-width: calc(100% - .7rem);
 
 	&.copied {
 		.tabs__info {
 			opacity: 1;
+		}
+	}
+
+	&.is-both {
+		.tabs__body .tab {
+			flex: 0 0 50%;
+			max-width: 50%;
+			width: 50%;
 		}
 	}
 

@@ -1,5 +1,5 @@
 {{ define "main" }}
-	<div class="hero">
+	<div class="hero" role="region" aria-labelledby="hero banner">
 		<div class="shell">
 			<picture class="hero__background">
 				{{ $image := resources.GetMatch "images/hero.jpg" }}
@@ -29,7 +29,7 @@
 		</div><!-- /.shell -->
 	</div><!-- /.hero -->
 
-	<section class="section-benefits bg--light-blue">
+	<section class="section-benefits bg--light-blue" role="region" aria-labelledby="benefits">
 		<div class="shell">
 			<div class="boxes-benefits">
 				<div class="grid">
@@ -135,7 +135,7 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-features">
+	<section class="section-features" role="region" aria-labelledby="features">
 		<div class="shell">
 			<header class="section__head">
 				<h2>Feature Benefits</h2>
@@ -277,7 +277,7 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-banner">
+	<section class="section-banner" role="region" aria-labelledby="banner-call-to-action">
 		<div class="shell">
 			<picture class="section__background">
 				{{ with $image := resources.GetMatch "images/banner-bg.jpg" }}<img src="{{ $image.RelPermalink }}" alt="Banner background">{{ end }}
@@ -303,7 +303,7 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-boxes bg--orange">
+	<section class="section-boxes bg--orange" role="region" aria-labelledby="what-are-you-looking-to-do">
 		<div class="shell">
 			<header class="section__head">
 				<h2>What are you looking to do?</h2>
@@ -326,7 +326,7 @@
 				<div class="boxes">
 					<div class="grid">
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/performance" class="box">
 								<div class="box__inner">
 									<h5>Accelerate API Responses</h5>
 
@@ -341,7 +341,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/marketing" class="box">
 								<div class="box__inner">
 									<h5>Personalize User Experiences</h5>
 
@@ -356,7 +356,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/performance" class="box">
 								<div class="box__inner">
 									<h5>Optimize Web Performance</h5>
 
@@ -371,7 +371,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/security" class="box">
 								<div class="box__inner">
 									<h5>Enhance Security</h5>
 
@@ -386,7 +386,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/developer-tools" class="box">
 								<div class="box__inner">
 									<h5>Implement Advanced Caching</h5>
 
@@ -401,7 +401,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/traffic-routing" class="box">
 								<div class="box__inner">
 									<h5>Manage Traffic Efficiently</h5>
 
@@ -416,7 +416,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/geolocation" class="box">
 								<div class="box__inner">
 									<h5>Localize Content Delivery</h5>
 
@@ -431,7 +431,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/performance" class="box">
 								<div class="box__inner">
 									<h5>Reduce Server Load</h5>
 
@@ -446,7 +446,7 @@
 						</div><!-- /.grid__col grid__col--1of3 -->
 
 						<div class="grid__col grid__col--1of3">
-							<a href="#" class="box">
+							<a href="/categories/developer-tools" class="box">
 								<div class="box__inner">
 									<h5>Integrate Third-Party Services</h5>
 
@@ -465,7 +465,7 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->
 
-	<section class="section-boxes">
+	<section class="section-boxes" role="region" aria-labelledby="featured-code-examples">
 		<div class="shell">
 			<header class="section__head">
 				<h2>Featured Code Examples</h2>
@@ -473,118 +473,15 @@
 				<div class="section__actions">
 					<ul>
 						<li>
-							<a href="#" class="btn btn--outline-black">View More</a><!-- /.btn -->
+							{{ $examplesURL := site.GetPage "section" "examples" }}
+							<a href="{{ $examplesURL.RelPermalink }}" class="btn btn--outline-black">View More</a><!-- /.btn -->
 						</li>
 					</ul>
 				</div><!-- /.section__actions -->
 			</header><!-- /.section__head -->
 
 			<div class="section__body">
-				<div class="cards">
-					<div class="grid">
-						<div class="grid__col grid__col--1of2">
-							<div class="card">
-								<a href="#"></a>
-
-								<div class="card__head">
-									<span class="card__icon">
-										{{ with $image := resources.GetMatch "images/icon-command-line-orange.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon command-line">{{ end }}
-									</span><!-- /.card__icon -->
-
-									<picture class="card__background">
-										{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
-									</picture><!-- /.card__background -->
-								</div><!-- /.card__head -->
-
-								<div class="card__body">
-									<div class="card__tags">
-										<ul>
-											<li>
-												<a href="#" class="type-tag">Developer Tools</a>
-											</li>
-										</ul>
-									</div><!-- /.card__tags -->
-
-									<div class="card__entry">
-										<h5>Hello World</h5>
-
-										<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra interdum. Sed orci quis egestas id eu eget vitae.</p>
-									</div><!-- /.card__entry -->
-
-									<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
-								</div><!-- /.card__body -->
-							</div><!-- /.card -->
-						</div><!-- /.grid__col grid__col--1of2 -->
-
-						<div class="grid__col grid__col--1of2">
-							<div class="card">
-								<a href="#"></a>
-
-								<div class="card__head">
-									<span class="card__icon">
-										{{ with $image := resources.GetMatch "images/icon-geolocation.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon geolocation">{{ end }}
-									</span><!-- /.card__icon -->
-
-									<picture class="card__background">
-										{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
-									</picture><!-- /.card__background -->
-								</div><!-- /.card__head -->
-
-								<div class="card__body">
-									<div class="card__tags">
-										<ul>
-											<li>
-												<a href="#" class="type-tag">Geolocation</a>
-											</li>
-										</ul>
-									</div><!-- /.card__tags -->
-
-									<div class="card__entry">
-										<h5>Geolocation</h5>
-
-										<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra interdum. Sed orci quis egestas id eu eget vitae.</p>
-									</div><!-- /.card__entry -->
-
-									<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
-								</div><!-- /.card__body -->
-							</div><!-- /.card -->
-						</div><!-- /.grid__col grid__col--1of2 -->
-
-						<div class="grid__col grid__col--1of4">
-							<div class="card">
-								<a href="#"></a>
-
-								<div class="card__head">
-									<span class="card__icon">
-										{{ with $image := resources.GetMatch "images/icon-ecommerce.svg" }}<img src="{{ $image.RelPermalink }}" alt="Icon ecommerce">{{ end }}
-									</span><!-- /.card__icon -->
-
-									<picture class="card__background">
-										{{ with $image := resources.GetMatch "images/card-bg.png" }}<img src="{{ $image.RelPermalink }}" alt="Card background">{{ end }}
-									</picture><!-- /.card__background -->
-								</div><!-- /.card__head -->
-
-								<div class="card__body">
-									<div class="card__tags">
-										<ul>
-											<li>
-												<a href="#" class="type-tag">Ecommerce</a>
-											</li>
-										</ul>
-									</div><!-- /.card__tags -->
-
-									<div class="card__entry">
-										<h5>Ecommerce</h5>
-
-										<p>Quis congue maecenas velit pretium elementum facilisi magna pharetra.</p>
-									</div><!-- /.card__entry -->
-
-									<span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
-								</div><!-- /.card__body -->
-							</div><!-- /.card -->
-						</div><!-- /.grid__col grid__col--1of4 -->
-					</div><!-- /.grid -->
-				</div><!-- /.cards -->
+				{{ partialCached "featured-cards.html" . }}
 			</div><!-- /.section__body -->
 		</div><!-- /.shell -->
 	</section><!-- /.section- -->

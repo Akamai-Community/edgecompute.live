@@ -67,9 +67,13 @@
 			padding-left: 0;
 			display: flex;
 			justify-content: center;
+			flex-wrap: wrap;
+			--gap-x: 1rem;
+			--gap-y: .4rem;
+			margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
 
-			li + li {
-				margin-left: 1rem;
+			li {
+				padding: calc(var(--gap-y, 0px) / 2) calc(var(--gap-x, 0px) / 2);
 			}
 		}
 
@@ -190,6 +194,13 @@
 
 			.card__body {
 				padding: 8.6rem 4.8rem;
+			}
+
+			.card__btn {
+				position: relative;
+				left: auto;
+				bottom: auto;
+				transform: unset;
 			}
 
 			.card__tags {

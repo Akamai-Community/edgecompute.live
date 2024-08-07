@@ -1,0 +1,17 @@
+{{ $featuredPages := shuffle (where (where .Site.Pages "Type" "examples") "Params.featured" true) }}
+
+<div class="cards">
+    <div class="grid">
+        {{ range first 2 $featuredPages }}
+            <div class="grid__col grid__col--1of2">
+                {{ partial "card.html" . }}
+            </div><!-- /.grid__col grid__col--1of2 -->
+        {{ end }}
+
+        {{ range after 2 $featuredPages }}
+            <div class="grid__col grid__col--1of4">
+                {{ partial "card.html" . }}
+            </div><!-- /.grid__col grid__col--1of4 -->
+        {{ end }}
+    </div><!-- /.grid -->
+</div><!-- /.cards -->

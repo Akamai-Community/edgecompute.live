@@ -1,0 +1,12 @@
+{{ $relatedPages := .Site.RegularPages.Related . | first 3 }}
+{{ with $relatedPages }}
+    <div class="cards">
+        <div class="grid">
+            {{ range $relatedPages }}
+                <div class="grid__col grid__col--1of3">
+                    {{ partial "card.html" . }}
+                </div><!-- /.grid__col grid__col--1of3 -->
+            {{ end }}
+        </div><!-- /.grid -->
+    </div><!-- /.related-cards -->
+{{ end }}

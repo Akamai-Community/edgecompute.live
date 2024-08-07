@@ -12,11 +12,11 @@
 				{{ partial "header-plain.html" . }}
 			{{ end }}
 
-			<main class="main">
+			<main class="main" role="region" aria-labelledby="main-content">
 				{{ block "main" . }}{{ end }}
 			</main>
 
-			<footer class="footer bg--light-blue">
+			<footer class="footer bg--light-blue" role="region" aria-labelledby="site-footer">
 				{{ partial "footer.html" . }}
 			</footer>
 		</div><!-- /.wrapper -->
