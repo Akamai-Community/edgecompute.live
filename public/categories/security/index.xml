@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Edge Compute Live</title>
-    <link>http://localhost:1313/categories/security/</link>
+    <link>http://localhost:53874/categories/security/</link>
     <description>Recent content in Security on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53874/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Security Policy</title>
-      <link>http://localhost:1313/examples/content-security-policy/</link>
+      <link>http://localhost:53874/examples/content-security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/examples/content-security-policy/</guid>
+      <guid>http://localhost:53874/examples/content-security-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>JA3 Fingerprinting</title>
-      <link>http://localhost:1313/examples/ja3-fingerprinting/</link>
+      <link>http://localhost:53874/examples/ja3-fingerprinting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/examples/ja3-fingerprinting/</guid>
+      <guid>http://localhost:53874/examples/ja3-fingerprinting/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>http://localhost:1313/examples/traffic-allow/</link>
+      <link>http://localhost:53874/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/examples/traffic-allow/</guid>
+      <guid>http://localhost:53874/examples/traffic-allow/</guid>
       <description></description>
     </item>
   </channel>

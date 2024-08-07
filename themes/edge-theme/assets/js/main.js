@@ -284,10 +284,12 @@
 		e.preventDefault();
 
 		const selectedCategory = toUrlFriendly($('#category').val());
+		const baseURL = window.location.origin + '/Akamai-Edge-Compute-Live';
+
 		if (selectedCategory) {
-			window.location.href = '/categories/' + encodeURIComponent(selectedCategory) + '/';
-		} else if (selectedCategory == '') {
-			window.location.href = '/examples/';
+			window.location.href = baseURL + '/categories/' + encodeURIComponent(selectedCategory) + '/';
+		} else if (selectedCategory === '') {
+			window.location.href = baseURL + '/examples/';
 		}
 	});
 

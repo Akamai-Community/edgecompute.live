@@ -2,85 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:53874/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/examples/ab-testing/</loc>
+    <loc>http://localhost:53874/examples/ab-testing/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/ab-testing-with-edgekv/</loc>
+    <loc>http://localhost:53874/examples/ab-testing-with-edgekv/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/api-orchestration/</loc>
+    <loc>http://localhost:53874/examples/api-orchestration/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/auth/</loc>
+    <loc>http://localhost:53874/categories/auth/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/autocomplete/</loc>
+    <loc>http://localhost:53874/examples/autocomplete/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/cachekey-device-type/</loc>
+    <loc>http://localhost:53874/examples/cachekey-device-type/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:53874/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/conference-metting-details/</loc>
+    <loc>http://localhost:53874/examples/conference-metting-details/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/content-security-policy/</loc>
+    <loc>http://localhost:53874/examples/content-security-policy/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/cookie-geolocation/</loc>
+    <loc>http://localhost:53874/examples/cookie-geolocation/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/cookie-manipulation/</loc>
+    <loc>http://localhost:53874/examples/cookie-manipulation/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/developer-tools/</loc>
+    <loc>http://localhost:53874/categories/developer-tools/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/device-routing/</loc>
+    <loc>http://localhost:53874/examples/device-routing/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/dynamic-callback/</loc>
+    <loc>http://localhost:53874/examples/dynamic-callback/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/ecommerce/</loc>
+    <loc>http://localhost:53874/categories/ecommerce/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/ecommerce/</loc>
+    <loc>http://localhost:53874/examples/ecommerce/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/edgekv-hello-world/</loc>
+    <loc>http://localhost:53874/examples/edgekv-hello-world/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/</loc>
+    <loc>http://localhost:53874/examples/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/find-replace-stream/</loc>
+    <loc>http://localhost:53874/examples/find-replace-stream/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/geo-redirect/</loc>
+    <loc>http://localhost:53874/examples/geo-redirect/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/geolocation/</loc>
+    <loc>http://localhost:53874/categories/geolocation/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/geolocation/</loc>
+    <loc>http://localhost:53874/examples/geolocation/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/hello-world/</loc>
+    <loc>http://localhost:53874/examples/hello-world/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/html-rewriter/</loc>
+    <loc>http://localhost:53874/examples/html-rewriter/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/ja3-fingerprinting/</loc>
+    <loc>http://localhost:53874/examples/ja3-fingerprinting/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/marketing/</loc>
+    <loc>http://localhost:53874/categories/marketing/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/miscellaneous/</loc>
+    <loc>http://localhost:53874/categories/miscellaneous/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/multivariate-testing/</loc>
+    <loc>http://localhost:53874/examples/multivariate-testing/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/origin-error-handling/</loc>
+    <loc>http://localhost:53874/examples/origin-error-handling/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/performance/</loc>
+    <loc>http://localhost:53874/categories/performance/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/product-url-redirects/</loc>
+    <loc>http://localhost:53874/examples/product-url-redirects/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/promo-code-validation/</loc>
+    <loc>http://localhost:53874/examples/promo-code-validation/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/response-manipulation/</loc>
+    <loc>http://localhost:53874/examples/response-manipulation/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/search-user-details/</loc>
+    <loc>http://localhost:53874/examples/search-user-details/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/security/</loc>
+    <loc>http://localhost:53874/categories/security/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/store-locator/</loc>
+    <loc>http://localhost:53874/examples/store-locator/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/traffic-allow/</loc>
+    <loc>http://localhost:53874/examples/traffic-allow/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/traffic-routing/</loc>
+    <loc>http://localhost:53874/categories/traffic-routing/</loc>
   </url><url>
-    <loc>http://localhost:1313/examples/user-registration/</loc>
+    <loc>http://localhost:53874/examples/user-registration/</loc>
   </url>
 </urlset>

@@ -171,10 +171,11 @@
     $(".js-filters-apply").on("click", function(e) {
       e.preventDefault();
       const selectedCategory = toUrlFriendly($("#category").val());
+      const baseURL = window2.location.origin + "/Akamai-Edge-Compute-Live";
       if (selectedCategory) {
-        window2.location.href = "/categories/" + encodeURIComponent(selectedCategory) + "/";
-      } else if (selectedCategory == "") {
-        window2.location.href = "/examples/";
+        window2.location.href = baseURL + "/categories/" + encodeURIComponent(selectedCategory) + "/";
+      } else if (selectedCategory === "") {
+        window2.location.href = baseURL + "/examples/";
       }
     });
     $(".section__nav").on("click", "a[data-demo-url]", function(e) {
