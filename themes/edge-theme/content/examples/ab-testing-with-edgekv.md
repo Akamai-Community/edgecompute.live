@@ -8,7 +8,7 @@ icon = ''
 features = ['onClientRequest', 'request.getHeader', 'request.addHeader', 'request.setVariable', 'request.cacheKey', 'onClientResponse', 'request.getVariable', 'response.addHeader']
 useCase = "A/B testing is beneficial to the business to test new features and measure user engagement. But this often comes with the cost of impacting page performance and user experience."
 featured = true
-demoURL = 'https://www.edgecompute.live/edgekv/usearch/search.html'
+demoURL = 'https://www.edgecompute.live/edgeworkers/trafficRouting/ABtestEW.html'
 gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/traffic-routing/ab-test-caching%20(EKV)'
 
 [benefits]
