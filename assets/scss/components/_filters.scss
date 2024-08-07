@@ -6,8 +6,24 @@
 	display: flex;
 	align-items: center;
 
+	@include breakpoint-down(mobile-medium) {
+		flex-wrap: wrap;
+	}
+
 	>* + * {
 		margin-left: 2.4rem;
+
+		@include breakpoint-down(mobile-medium) {
+			margin-left: 0;
+		}
+	}
+
+	.select {
+		@include breakpoint-down(mobile-medium) {
+			flex: 0 0 100%;
+			max-width: 100%;
+			margin-bottom: 2rem;
+		}
 	}
 
 	.filters__actions {

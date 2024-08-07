@@ -16,6 +16,7 @@
 
 
 <link rel="stylesheet" href="/scss/main.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	</head>
 
@@ -146,7 +147,7 @@
 							
 								<div class="grid__col grid__col--1of3">
 									<div class="card">
-    <a href="/examples/content-security-policy/"></a>
+    <a href="/examples/autocomplete/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -161,7 +162,7 @@
             
 
             
-                <img src="/images/icon-shield-small.svg" alt="Icon ">
+                <img src="/images/icon-list-small.svg" alt="Icon ">
             
         </span>
 
@@ -175,65 +176,16 @@
             <ul>
                 
                 <li>
-                    <a href="/categories/security" class="type-tag">Security</a>
+                    <a href="/categories/miscellaneous" class="type-tag">Miscellaneous</a>
                 </li>
                 
             </ul>
         </div>
 
         <div class="card__entry">
-            <h5>Content Security Policy</h5>
+            <h5>Autocomplete</h5>
 
-            <p>A Content Security Policy (CSP) is a security feature implemented in web browsers to protect websites and web applications from attacks such as cross-site scripting (XSS) and data injection. CSP controls and limits the source of various types of content loaded and executed on a web page, including scripts, stylesheets, and images. EdgeWorkers provides numerous performance benefits for CSPs, which need to complement the security measures on the application server-side.</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-    <a href="/examples/cookie-geolocation/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-
-            
-                <img src="/images/icon-geolocation-small.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-                
-                <li>
-                    <a href="/categories/geolocation" class="type-tag">Geolocation</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Cookie Geolocation</h5>
-
-            <p>Implements an EdgeWorker to add geolocation data to a cookie in the HTTP response. This cookie returns location information about the client where the request originates, including a lookup from custom data.</p>
+            <p>&ldquo;Serves responses for popular search terms at the Edge. Autocomplete requests are typically long tail and frequently changing. Without an EdgeWorker, it is difficult to get up-to-date content from cache. Storing and serving the most popular search terms from the Edge will speed up responses significantly.	&quot;</p>
         </div>
 
         <span class="btn btn--blue card__btn">View Case</span>
@@ -280,8 +232,8 @@
 								</li>
 
 								<li class="pagination__item">
-									<a href="/examples/page/14/" class="pagination__link">
-										14
+									<a href="/examples/page/28/" class="pagination__link">
+										28
 									</a>
 								</li>
 								
@@ -312,53 +264,53 @@
 
 			</main>
 
-			<footer class="footer bg--light-blue" role="region" aria-labelledby="site-footer">
-				<div class="shell">
-	<div class="footer__intro">
-		<div class="footer__entry">
-			<h2>Our Customers</h2>
+			
+<footer class="footer bg--light-blue" role="region" aria-labelledby="footer-title">
+	<div class="shell">
+		<div class="footer__intro">
+			<div class="footer__entry">
+				<h2 id="footer-title">Our Customers</h2>
 
-			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+				<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
 
-			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+				<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+			</div>
+
+			<a href="https://www.akamai.com/why-akamai/contact-us" class="btn" target="_blank">Contact Us</a>
 		</div>
 
-		<a href="#" class="btn">Contact Us</a>
-	</div>
+		<div class="footer__content">
+			<a href="http://localhost:1313/" class="footer__logo">
+				<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+			</a>
 
-	<div class="footer__content">
-		<a href="http://localhost:1313/" class="footer__logo">
-			<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
-		</a>
+			<div class="footer__inner">
+				<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
 
-		<div class="footer__inner">
-			<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
+				<div class="footer__actions">
+					<ul>
+						<li>
+							<a href="https://www.akamai.com/legal/terms-and-conditions" target="_blank">Terms &#38; Conditions</a>
+						</li>
 
-			<div class="footer__actions">
-				<ul>
-					<li>
-						<a href="#">Terms &#38; Conditions</a>
-					</li>
-
-					<li>
-						<a href="#">Privacy Policy</a>
-					</li>
-				</ul>
+						<li>
+							<a href="https://www.akamai.com/legal/privacy-statement" target="_blank">Privacy Policy</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-
-</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
       <script src="/js/main.js"></script>
 
 
-
-			</footer>
 		</div>
 	</body>
 </html>

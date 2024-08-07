@@ -16,6 +16,7 @@
 
 
 <link rel="stylesheet" href="/scss/main.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	</head>
 
@@ -146,7 +147,7 @@
 							
 								<div class="grid__col grid__col--1of3">
 									<div class="card">
-    <a href="/examples/hello-world/"></a>
+    <a href="/examples/cookie-manipulation/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -182,58 +183,9 @@
         </div>
 
         <div class="card__entry">
-            <h5>Hello World</h5>
+            <h5>Cookie Manipulation</h5>
 
-            <p>With this example you learn the basics of creating, deploying and debugging an EdgeWorker that generates a simple html page at the Edge and adds a response header.</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-    <a href="/examples/html-rewriter/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-
-            
-                <img src="/images/icon-command-line-small.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-                
-                <li>
-                    <a href="/categories/developer-tools" class="type-tag">Developer Tools</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>HTML Rewriter</h5>
-
-            <p>Leverage EdgeWorkers html-rewriter to efficiently generate dynamic HTML content by combining JSON data from an API endpoint with an HTML template. Additionally, if the request is made by a logged-in user, a discount code will be dynamically incorporated into the rendered document. By performing these operations at the Edge with EdgeWorkers, we enhance site performance, offload server resources, and unlock SEO advantages. The template, JSON data, and rendered content can all be efficiently cached at the Edge, further optimizing response times and improving the overall site experience.</p>
+            <p>Implements an EdgeWorker that responds with a welcome message if the user&rsquo;s name is saved in a cookie, otherwise it prompts the user to enter their name.</p>
         </div>
 
         <span class="btn btn--blue card__btn">View Case</span>
@@ -280,8 +232,8 @@
 								</li>
 
 								<li class="pagination__item">
-									<a href="/examples/page/14/" class="pagination__link">
-										14
+									<a href="/examples/page/28/" class="pagination__link">
+										28
 									</a>
 								</li>
 								
@@ -312,53 +264,53 @@
 
 			</main>
 
-			<footer class="footer bg--light-blue" role="region" aria-labelledby="site-footer">
-				<div class="shell">
-	<div class="footer__intro">
-		<div class="footer__entry">
-			<h2>Our Customers</h2>
+			
+<footer class="footer bg--light-blue" role="region" aria-labelledby="footer-title">
+	<div class="shell">
+		<div class="footer__intro">
+			<div class="footer__entry">
+				<h2 id="footer-title">Our Customers</h2>
 
-			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+				<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
 
-			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+				<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+			</div>
+
+			<a href="https://www.akamai.com/why-akamai/contact-us" class="btn" target="_blank">Contact Us</a>
 		</div>
 
-		<a href="#" class="btn">Contact Us</a>
-	</div>
+		<div class="footer__content">
+			<a href="http://localhost:1313/" class="footer__logo">
+				<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+			</a>
 
-	<div class="footer__content">
-		<a href="http://localhost:1313/" class="footer__logo">
-			<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
-		</a>
+			<div class="footer__inner">
+				<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
 
-		<div class="footer__inner">
-			<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
+				<div class="footer__actions">
+					<ul>
+						<li>
+							<a href="https://www.akamai.com/legal/terms-and-conditions" target="_blank">Terms &#38; Conditions</a>
+						</li>
 
-			<div class="footer__actions">
-				<ul>
-					<li>
-						<a href="#">Terms &#38; Conditions</a>
-					</li>
-
-					<li>
-						<a href="#">Privacy Policy</a>
-					</li>
-				</ul>
+						<li>
+							<a href="https://www.akamai.com/legal/privacy-statement" target="_blank">Privacy Policy</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-
-</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
       <script src="/js/main.js"></script>
 
 
-
-			</footer>
 		</div>
 	</body>
 </html>

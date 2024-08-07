@@ -16,6 +16,7 @@
 
 
 <link rel="stylesheet" href="/scss/main.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	</head>
 
@@ -61,12 +62,12 @@
 
 			
 
-			<main class="main">
+			<main class="main" role="region" aria-labelledby="main-content">
 				
 
 	<section class="section-intro bg--light-blue">
 		<div class="shell">
-			<h1>Security</h1>
+			<h1>Examples</h1>
 		</div>
 	</section>
 
@@ -74,63 +75,62 @@
 		<div class="shell">
 			<header class="section__head">
 				<div class="filters js-filters">
-					<form action="" method="get">
-						<div class="select">
-							<select name="category" id="category">
-								<option value="">Filter</option>
-								
-								
-									<option value="auth" >
-										Auth
-									</option>
-								
-									<option value="developer tools" >
-										Developer Tools
-									</option>
-								
-									<option value="ecommerce" >
-										Ecommerce
-									</option>
-								
-									<option value="geolocation" >
-										Geolocation
-									</option>
-								
-									<option value="marketing" >
-										Marketing
-									</option>
-								
-									<option value="miscellaneous" >
-										Miscellaneous
-									</option>
-								
-									<option value="performance" >
-										Performance
-									</option>
-								
-									<option value="security" >
-										Security
-									</option>
-								
-									<option value="traffic routing" >
-										Traffic Routing
-									</option>
-								
-							</select>
-						</div>
+					<div class="select">
+						<select name="category" id="category">
+							<option value="">Filter</option>
+							
+							
+								<option value="auth">
+									Auth
+								</option>
+							
+								<option value="developer tools">
+									Developer Tools
+								</option>
+							
+								<option value="ecommerce">
+									Ecommerce
+								</option>
+							
+								<option value="geolocation">
+									Geolocation
+								</option>
+							
+								<option value="marketing">
+									Marketing
+								</option>
+							
+								<option value="miscellaneous">
+									Miscellaneous
+								</option>
+							
+								<option value="performance">
+									Performance
+								</option>
+							
+								<option value="security">
+									Security
+								</option>
+							
+								<option value="traffic routing">
+									Traffic Routing
+								</option>
+							
+						</select>
+					</div>
 
-						<div class="filters__actions">
-							<ul>
-								<li>
-									<button type="submit" class="btn js-filters-apply">Apply</button>
-								</li>
+					<div class="filters__actions">
+						<ul>
+							<li>
+								<button type="submit" class="btn js-filters-apply">Apply</button>
+							</li>
 
-								<li>
-									<a href="http://localhost:1313/categories/security/" class="btn btn--outline-black js-filters-reset">Reset</a>
-								</li>
-							</ul>
-						</div>
-					</form>
+							<li>
+								
+								<a href="/examples/" class="btn btn--outline-black js-filters-reset">Reset</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</header>
 
@@ -144,104 +144,6 @@
 
 							
 
-							
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-    <a href="/examples/content-security-policy/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-
-            
-                <img src="/images/icon-shield-small.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-                
-                <li>
-                    <a href="#" class="type-tag">Security</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Content Security Policy</h5>
-
-            <p>A Content Security Policy (CSP) is a security feature implemented in web browsers to protect websites and web applications from attacks such as cross-site scripting (XSS) and data injection. CSP controls and limits the source of various types of content loaded and executed on a web page, including scripts, stylesheets, and images. EdgeWorkers provides numerous performance benefits for CSPs, which need to complement the security measures on the application server-side.</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-    <a href="/examples/ja3-fingerprinting/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-
-            
-                <img src="/images/icon-shield-small.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-                
-                <li>
-                    <a href="#" class="type-tag">Security</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>JA3 Fingerprinting</h5>
-
-            <p>Calculates JA3 Fingerprint using EdgeWorkers. TLS fingerprinting is a technique that associates a TLS library with parameters from a TLS ClientHello via a database of curated fingerprints to identify malware and vulnerable applications for better network visibility. The JA3 algorithm takes a collection of settings from the SSL “ClientHello” such as SSL/TLS version, accepted cipher suites, list of extensions, accepted elliptical curves/formats, and others. For compactness, the JA3 string is hashed with MD5. This EdgeWorker calculates JA3 Fingerprint to help customers deny requests from services with suspicious JA3 Fingerprints and credentials, without contacting origin servers even on cacheable contents.</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-								</div>
 							
 								<div class="grid__col grid__col--1of3">
 									<div class="card">
@@ -274,15 +176,15 @@
             <ul>
                 
                 <li>
-                    <a href="#" class="type-tag">Traffic Routing</a>
+                    <a href="/categories/traffic-routing" class="type-tag">Traffic Routing</a>
                 </li>
                 
                 <li>
-                    <a href="#" class="type-tag">Security</a>
+                    <a href="/categories/security" class="type-tag">Security</a>
                 </li>
                 
                 <li>
-                    <a href="#" class="type-tag">Geolocation</a>
+                    <a href="/categories/geolocation" class="type-tag">Geolocation</a>
                 </li>
                 
             </ul>
@@ -320,29 +222,33 @@
 
 							
 							
-								<li class="pagination__item">
-									<a href="/categories/security/" class="pagination__link">
-										1
-									</a>
-								</li>
 							
-							<li class="pagination__item">
+							<li class="pagination__item ">
+								<a href="/categories/security/" class="pagination__link">
+									1
+								</a>
+							</li>
+							
+							<li class="pagination__item ">
 								<a href="/categories/security/page/2/" class="pagination__link">
 									2
 								</a>
 							</li>
-
+							
 							<li class="pagination__item pagination__item--current">
-								<a href="#" class="pagination__link">
+								<a href="/categories/security/page/3/" class="pagination__link">
 									3
 								</a>
 							</li>
 							
 
 							
+
+							
 						</ul>
 						
 					</nav>
+
 				</div>
 			</div>
 		</div>
@@ -354,53 +260,53 @@
 
 			</main>
 
-			<footer class="footer bg--light-blue">
-				<div class="shell">
-	<div class="footer__intro">
-		<div class="footer__entry">
-			<h2>Our Customers</h2>
+			
+<footer class="footer bg--light-blue" role="region" aria-labelledby="footer-title">
+	<div class="shell">
+		<div class="footer__intro">
+			<div class="footer__entry">
+				<h2 id="footer-title">Our Customers</h2>
 
-			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+				<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
 
-			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+				<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+			</div>
+
+			<a href="https://www.akamai.com/why-akamai/contact-us" class="btn" target="_blank">Contact Us</a>
 		</div>
 
-		<a href="#" class="btn">Contact Us</a>
-	</div>
+		<div class="footer__content">
+			<a href="http://localhost:1313/" class="footer__logo">
+				<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+			</a>
 
-	<div class="footer__content">
-		<a href="http://localhost:1313/" class="footer__logo">
-			<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
-		</a>
+			<div class="footer__inner">
+				<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
 
-		<div class="footer__inner">
-			<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
+				<div class="footer__actions">
+					<ul>
+						<li>
+							<a href="https://www.akamai.com/legal/terms-and-conditions" target="_blank">Terms &#38; Conditions</a>
+						</li>
 
-			<div class="footer__actions">
-				<ul>
-					<li>
-						<a href="#">Terms &#38; Conditions</a>
-					</li>
-
-					<li>
-						<a href="#">Privacy Policy</a>
-					</li>
-				</ul>
+						<li>
+							<a href="https://www.akamai.com/legal/privacy-statement" target="_blank">Privacy Policy</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-
-</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
       <script src="/js/main.js"></script>
 
 
-
-			</footer>
 		</div>
 	</body>
 </html>

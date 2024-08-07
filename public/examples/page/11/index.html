@@ -16,6 +16,7 @@
 
 
 <link rel="stylesheet" href="/scss/main.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	</head>
 
@@ -146,7 +147,7 @@
 							
 								<div class="grid__col grid__col--1of3">
 									<div class="card">
-    <a href="/examples/origin-error-handling/"></a>
+    <a href="/examples/dynamic-callback/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -182,62 +183,9 @@
         </div>
 
         <div class="card__entry">
-            <h5>Origin Error Handling</h5>
+            <h5>Dynamic Callback</h5>
 
-            <p>Translates a HTTP 503 status code (service unavailable) from an overloaded origin into an HTML page presenting the information in a more user-friendly way. It includes JavaScript to retry after the period indicated by the &lsquo;Retry-After&rsquo; header from the origin, if present. Otherwise, it retries after a default number of seconds. Configuring the property to cache HTTP error responses, even for a short duration, makes sense for dynamic content.</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-    <a href="/examples/product-url-redirects/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-
-            
-                <img src="/images/icon-squares-orange.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-                
-                <li>
-                    <a href="/categories/ecommerce" class="type-tag">Ecommerce</a>
-                </li>
-                
-                <li>
-                    <a href="/categories/traffic-routing" class="type-tag">Traffic Routing</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Product URL Redirects</h5>
-
-            <p>Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews <!-- raw HTML omitted --><!-- raw HTML omitted -->This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.</p>
+            <p>Demonstrates how an EdgeWorker can wrap a JSON response with a dynamic unique callback function leveraging Response Provider and Stream API for efficient content transformation. The EdgeWorker should be enabled on JSON requests containing a callback query parameter, which can be managed via Property Manager. When such a request comes in, this EdgeWorker removes the callback query parameter, makes a sub-request to fetch the JSON data, and serves it as a stream. The EdgeWorker code adds a prefix with the callback function name captured from the query parameter and a suffix. Both JSON data and transformed data can be cached using standard &ldquo;&ldquo;Caching&rdquo;&rdquo; behavior in Property Manager if caching is allowed.</p>
         </div>
 
         <span class="btn btn--blue card__btn">View Case</span>
@@ -284,8 +232,8 @@
 								</li>
 
 								<li class="pagination__item">
-									<a href="/examples/page/14/" class="pagination__link">
-										14
+									<a href="/examples/page/28/" class="pagination__link">
+										28
 									</a>
 								</li>
 								
@@ -316,53 +264,53 @@
 
 			</main>
 
-			<footer class="footer bg--light-blue" role="region" aria-labelledby="site-footer">
-				<div class="shell">
-	<div class="footer__intro">
-		<div class="footer__entry">
-			<h2>Our Customers</h2>
+			
+<footer class="footer bg--light-blue" role="region" aria-labelledby="footer-title">
+	<div class="shell">
+		<div class="footer__intro">
+			<div class="footer__entry">
+				<h2 id="footer-title">Our Customers</h2>
 
-			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+				<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
 
-			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+				<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+			</div>
+
+			<a href="https://www.akamai.com/why-akamai/contact-us" class="btn" target="_blank">Contact Us</a>
 		</div>
 
-		<a href="#" class="btn">Contact Us</a>
-	</div>
+		<div class="footer__content">
+			<a href="http://localhost:1313/" class="footer__logo">
+				<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+			</a>
 
-	<div class="footer__content">
-		<a href="http://localhost:1313/" class="footer__logo">
-			<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
-		</a>
+			<div class="footer__inner">
+				<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
 
-		<div class="footer__inner">
-			<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
+				<div class="footer__actions">
+					<ul>
+						<li>
+							<a href="https://www.akamai.com/legal/terms-and-conditions" target="_blank">Terms &#38; Conditions</a>
+						</li>
 
-			<div class="footer__actions">
-				<ul>
-					<li>
-						<a href="#">Terms &#38; Conditions</a>
-					</li>
-
-					<li>
-						<a href="#">Privacy Policy</a>
-					</li>
-				</ul>
+						<li>
+							<a href="https://www.akamai.com/legal/privacy-statement" target="_blank">Privacy Policy</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-
-</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
       <script src="/js/main.js"></script>
 
 
-
-			</footer>
 		</div>
 	</body>
 </html>

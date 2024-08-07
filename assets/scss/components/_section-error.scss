@@ -8,6 +8,10 @@
 	h1 {
 		color: var(--c-black-2);
 		margin-bottom: 2rem;
+
+		@include breakpoint-down(mobile-medium) {
+			font-size: 3.1rem;
+		}
 	}
 
 	ul {

@@ -16,6 +16,7 @@
 
 
 <link rel="stylesheet" href="/scss/main.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	</head>
 
@@ -146,7 +147,7 @@
 							
 								<div class="grid__col grid__col--1of3">
 									<div class="card">
-    <a href="/examples/device-routing/"></a>
+    <a href="/examples/conference-metting-details/"></a>
 
     <div class="card__head">
         <span class="card__icon">
@@ -178,72 +179,13 @@
                     <a href="/categories/traffic-routing" class="type-tag">Traffic Routing</a>
                 </li>
                 
-                <li>
-                    <a href="/categories/developer-tools" class="type-tag">Developer Tools</a>
-                </li>
-                
             </ul>
         </div>
 
         <div class="card__entry">
-            <h5>Device Routing</h5>
+            <h5>Conference/Meeting Details</h5>
 
-            <p>Implements modification of the forward origin path of the URL to return device-specific content.</p>
-        </div>
-
-        <span class="btn btn--blue card__btn">View Case</span>
-    </div>
-</div>
-
-								</div>
-							
-								<div class="grid__col grid__col--1of3">
-									<div class="card">
-    <a href="/examples/multivariate-testing/"></a>
-
-    <div class="card__head">
-        <span class="card__icon">
-			
-
-			
-            
-                
-            
-            
-
-            
-                
-            
-
-            
-                <img src="/images/icon-landscape-orange.svg" alt="Icon ">
-            
-        </span>
-
-        <picture class="card__background">
-            <img src="/images/card-bg.png" alt="Card background">
-        </picture>
-    </div>
-
-    <div class="card__body">
-        <div class="card__tags">
-            <ul>
-                
-                <li>
-                    <a href="/categories/marketing" class="type-tag">Marketing</a>
-                </li>
-                
-                <li>
-                    <a href="/categories/traffic-routing" class="type-tag">Traffic Routing</a>
-                </li>
-                
-            </ul>
-        </div>
-
-        <div class="card__entry">
-            <h5>Multivariate Testing</h5>
-
-            <p>Enables multivariate testing where multiple tests are executed simultaneously. A single variant is selected for each test, and variants are randomly assigned to new users, with each selected variant stored in a cookie and passed to the origin in a query string parameter. The probability of choosing each variant can be configured by adjusting the weight of each variant. Variants can be forced via a query string parameter for easy testing. Custom actions can be executed in the request and/or response phase of each variant, such as routing a variant to a different origin or constructing a response at the edge.</p>
+            <p>Implements a Conference Attendance Code API call that returns the meeting details of a conference as HTML if the user provides the correct code. With abc123 in the key GET parameter, the user is shown conference details. If the parameter is incorrect, an error is returned, keeping the information away from the browser to maintain confidentiality.</p>
         </div>
 
         <span class="btn btn--blue card__btn">View Case</span>
@@ -271,26 +213,30 @@
 							
 
 							
-							
-							
-							<li class="pagination__item ">
-								<a href="/categories/traffic-routing/" class="pagination__link">
-									1
-								</a>
-							</li>
-							
-							<li class="pagination__item pagination__item--current">
-								<a href="/categories/traffic-routing/page/2/" class="pagination__link">
-									2
-								</a>
-							</li>
-							
-							<li class="pagination__item ">
-								<a href="/categories/traffic-routing/page/3/" class="pagination__link">
-									3
-								</a>
-							</li>
-							
+								
+
+								<li class="pagination__item pagination__item--current">
+									<a href="#" class="pagination__link">
+										2
+									</a>
+								</li>
+
+								<li class="pagination__item">
+									<a href="/categories/traffic-routing/page/3/" class="pagination__link">
+										3
+									</a>
+								</li>
+
+								<li>
+									<span>...</span>
+								</li>
+
+								<li class="pagination__item">
+									<a href="/categories/traffic-routing/page/6/" class="pagination__link">
+										6
+									</a>
+								</li>
+								
 
 							
 
@@ -318,53 +264,53 @@
 
 			</main>
 
-			<footer class="footer bg--light-blue" role="region" aria-labelledby="site-footer">
-				<div class="shell">
-	<div class="footer__intro">
-		<div class="footer__entry">
-			<h2>Our Customers</h2>
+			
+<footer class="footer bg--light-blue" role="region" aria-labelledby="footer-title">
+	<div class="shell">
+		<div class="footer__intro">
+			<div class="footer__entry">
+				<h2 id="footer-title">Our Customers</h2>
 
-			<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
+				<p>We partner with some of the largest companies in the world to enhance their digital experiences by leveraging our cutting-edge EdgeWorkers technology. Our solutions enable these enterprises to accelerate API responses, personalize user interactions, optimize web performance, enhance security, implement advanced caching, manage traffic efficiently, localize content delivery, reduce server load, and integrate third-party services seamlessly.</p>
 
-			<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+				<p>Interested in learning more? Contact us for a demo and discover how EdgeWorkers can transform your business.</p>
+			</div>
+
+			<a href="https://www.akamai.com/why-akamai/contact-us" class="btn" target="_blank">Contact Us</a>
 		</div>
 
-		<a href="#" class="btn">Contact Us</a>
-	</div>
+		<div class="footer__content">
+			<a href="http://localhost:1313/" class="footer__logo">
+				<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
+			</a>
 
-	<div class="footer__content">
-		<a href="http://localhost:1313/" class="footer__logo">
-			<img src="http://localhost:1313/logo-colored.svg" alt="Akamai Edge Compute colored logo">
-		</a>
+			<div class="footer__inner">
+				<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
 
-		<div class="footer__inner">
-			<p>Copyright &#64; 2024 Akamai Technologies, Inc. All rights reserved</p>
+				<div class="footer__actions">
+					<ul>
+						<li>
+							<a href="https://www.akamai.com/legal/terms-and-conditions" target="_blank">Terms &#38; Conditions</a>
+						</li>
 
-			<div class="footer__actions">
-				<ul>
-					<li>
-						<a href="#">Terms &#38; Conditions</a>
-					</li>
-
-					<li>
-						<a href="#">Privacy Policy</a>
-					</li>
-				</ul>
+						<li>
+							<a href="https://www.akamai.com/legal/privacy-statement" target="_blank">Privacy Policy</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-
-</div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js" integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
       <script src="/js/main.js"></script>
 
 
-
-			</footer>
 		</div>
 	</body>
 </html>

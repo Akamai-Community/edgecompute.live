@@ -1357,6 +1357,11 @@ body.nav-open {
     height: 4.8rem;
     position: relative;
     transition: background-color var(--t-duration), color var(--t-duration); }
+    @media (max-width: 575px) {
+      .listing .listing__nav a,
+      .listing .listing__nav span {
+        width: 3rem;
+        height: 3rem; } }
   @media (min-width: 1079.02px) {
     .listing .listing__nav a:hover {
       background-color: var(--c-black-2);
@@ -1392,8 +1397,19 @@ body.nav-open {
 .filters {
   display: flex;
   align-items: center; }
+  @media (max-width: 575px) {
+    .filters {
+      flex-wrap: wrap; } }
   .filters > * + * {
     margin-left: 2.4rem; }
+    @media (max-width: 575px) {
+      .filters > * + * {
+        margin-left: 0; } }
+  @media (max-width: 575px) {
+    .filters .select {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 2rem; } }
   .filters .filters__actions ul {
     display: flex;
     list-style-type: none;
@@ -1629,6 +1645,9 @@ code.language-markup .token.script .token.keyword {
   .section-error h1 {
     color: var(--c-black-2);
     margin-bottom: 2rem; }
+    @media (max-width: 575px) {
+      .section-error h1 {
+        font-size: 3.1rem; } }
   .section-error ul {
     margin-bottom: 4rem;
     margin-left: 2rem; }
