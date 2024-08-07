@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Edge Compute Live</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://example.org/categories/</link>
     <description>Recent content in Categories on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auth</title>
-      <link>http://localhost:1313/categories/auth/</link>
+      <link>https://example.org/categories/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/auth/</guid>
+      <guid>https://example.org/categories/auth/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer Tools</title>
-      <link>http://localhost:1313/categories/developer-tools/</link>
+      <link>https://example.org/categories/developer-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/developer-tools/</guid>
+      <guid>https://example.org/categories/developer-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecommerce</title>
-      <link>http://localhost:1313/categories/ecommerce/</link>
+      <link>https://example.org/categories/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ecommerce/</guid>
+      <guid>https://example.org/categories/ecommerce/</guid>
       <description></description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>http://localhost:1313/categories/geolocation/</link>
+      <link>https://example.org/categories/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/geolocation/</guid>
+      <guid>https://example.org/categories/geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>http://localhost:1313/categories/marketing/</link>
+      <link>https://example.org/categories/marketing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/marketing/</guid>
+      <guid>https://example.org/categories/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Miscellaneous</title>
-      <link>http://localhost:1313/categories/miscellaneous/</link>
+      <link>https://example.org/categories/miscellaneous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/miscellaneous/</guid>
+      <guid>https://example.org/categories/miscellaneous/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>http://localhost:1313/categories/performance/</link>
+      <link>https://example.org/categories/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/performance/</guid>
+      <guid>https://example.org/categories/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>http://localhost:1313/categories/security/</link>
+      <link>https://example.org/categories/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/security/</guid>
+      <guid>https://example.org/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Routing</title>
-      <link>http://localhost:1313/categories/traffic-routing/</link>
+      <link>https://example.org/categories/traffic-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/traffic-routing/</guid>
+      <guid>https://example.org/categories/traffic-routing/</guid>
       <description></description>
     </item>
   </channel>

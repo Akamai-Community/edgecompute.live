@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecommerce on Edge Compute Live</title>
-    <link>http://localhost:1313/categories/ecommerce/</link>
+    <link>https://example.org/categories/ecommerce/</link>
     <description>Recent content in Ecommerce on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/ecommerce/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/categories/ecommerce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ecommerce</title>
-      <link>http://localhost:1313/examples/ecommerce/</link>
+      <link>https://example.org/examples/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/examples/ecommerce/</guid>
+      <guid>https://example.org/examples/ecommerce/</guid>
       <description></description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>http://localhost:1313/examples/product-url-redirects/</link>
+      <link>https://example.org/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/examples/product-url-redirects/</guid>
+      <guid>https://example.org/examples/product-url-redirects/</guid>
       <description></description>
     </item>
   </channel>
