@@ -2,206 +2,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Edge Compute Live</title>
-    <link>https://dev-akamai.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dev-akamai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>https://dev-akamai.github.io/examples/ab-testing/</link>
+      <link>http://localhost:1313/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ab-testing/</guid>
+      <guid>http://localhost:1313/examples/ab-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>A/B Testing with EdgeKV</title>
-      <link>https://dev-akamai.github.io/examples/ab-testing-with-edgekv/</link>
+      <link>http://localhost:1313/examples/ab-testing-with-edgekv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ab-testing-with-edgekv/</guid>
+      <guid>http://localhost:1313/examples/ab-testing-with-edgekv/</guid>
       <description></description>
     </item>
     <item>
       <title>API Orchestration</title>
-      <link>https://dev-akamai.github.io/examples/api-orchestration/</link>
+      <link>http://localhost:1313/examples/api-orchestration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/api-orchestration/</guid>
+      <guid>http://localhost:1313/examples/api-orchestration/</guid>
       <description></description>
     </item>
     <item>
       <title>Autocomplete</title>
-      <link>https://dev-akamai.github.io/examples/autocomplete/</link>
+      <link>http://localhost:1313/examples/autocomplete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/autocomplete/</guid>
+      <guid>http://localhost:1313/examples/autocomplete/</guid>
       <description></description>
     </item>
     <item>
       <title>Cachekey Device Type</title>
-      <link>https://dev-akamai.github.io/examples/cachekey-device-type/</link>
+      <link>http://localhost:1313/examples/cachekey-device-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/cachekey-device-type/</guid>
+      <guid>http://localhost:1313/examples/cachekey-device-type/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference/Meeting Details</title>
-      <link>https://dev-akamai.github.io/examples/conference-metting-details/</link>
+      <link>http://localhost:1313/examples/conference-metting-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/conference-metting-details/</guid>
+      <guid>http://localhost:1313/examples/conference-metting-details/</guid>
       <description></description>
     </item>
     <item>
       <title>Content Security Policy</title>
-      <link>https://dev-akamai.github.io/examples/content-security-policy/</link>
+      <link>http://localhost:1313/examples/content-security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/content-security-policy/</guid>
+      <guid>http://localhost:1313/examples/content-security-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie Geolocation</title>
-      <link>https://dev-akamai.github.io/examples/cookie-geolocation/</link>
+      <link>http://localhost:1313/examples/cookie-geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/cookie-geolocation/</guid>
+      <guid>http://localhost:1313/examples/cookie-geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie Manipulation</title>
-      <link>https://dev-akamai.github.io/examples/cookie-manipulation/</link>
+      <link>http://localhost:1313/examples/cookie-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/cookie-manipulation/</guid>
+      <guid>http://localhost:1313/examples/cookie-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Device Routing</title>
-      <link>https://dev-akamai.github.io/examples/device-routing/</link>
+      <link>http://localhost:1313/examples/device-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/device-routing/</guid>
+      <guid>http://localhost:1313/examples/device-routing/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Callback</title>
-      <link>https://dev-akamai.github.io/examples/dynamic-callback/</link>
+      <link>http://localhost:1313/examples/dynamic-callback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/dynamic-callback/</guid>
+      <guid>http://localhost:1313/examples/dynamic-callback/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecommerce</title>
-      <link>https://dev-akamai.github.io/examples/ecommerce/</link>
+      <link>http://localhost:1313/examples/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ecommerce/</guid>
+      <guid>http://localhost:1313/examples/ecommerce/</guid>
       <description></description>
     </item>
     <item>
       <title>EdgeKV Hello World</title>
-      <link>https://dev-akamai.github.io/examples/edgekv-hello-world/</link>
+      <link>http://localhost:1313/examples/edgekv-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/edgekv-hello-world/</guid>
+      <guid>http://localhost:1313/examples/edgekv-hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>Find Replace Stream</title>
-      <link>https://dev-akamai.github.io/examples/find-replace-stream/</link>
+      <link>http://localhost:1313/examples/find-replace-stream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/find-replace-stream/</guid>
+      <guid>http://localhost:1313/examples/find-replace-stream/</guid>
       <description></description>
     </item>
     <item>
       <title>Geo Redirect</title>
-      <link>https://dev-akamai.github.io/examples/geo-redirect/</link>
+      <link>http://localhost:1313/examples/geo-redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/geo-redirect/</guid>
+      <guid>http://localhost:1313/examples/geo-redirect/</guid>
       <description></description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>https://dev-akamai.github.io/examples/geolocation/</link>
+      <link>http://localhost:1313/examples/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/geolocation/</guid>
+      <guid>http://localhost:1313/examples/geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>https://dev-akamai.github.io/examples/hello-world/</link>
+      <link>http://localhost:1313/examples/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/hello-world/</guid>
+      <guid>http://localhost:1313/examples/hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML Rewriter</title>
-      <link>https://dev-akamai.github.io/examples/html-rewriter/</link>
+      <link>http://localhost:1313/examples/html-rewriter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/html-rewriter/</guid>
+      <guid>http://localhost:1313/examples/html-rewriter/</guid>
       <description></description>
     </item>
     <item>
       <title>JA3 Fingerprinting</title>
-      <link>https://dev-akamai.github.io/examples/ja3-fingerprinting/</link>
+      <link>http://localhost:1313/examples/ja3-fingerprinting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ja3-fingerprinting/</guid>
+      <guid>http://localhost:1313/examples/ja3-fingerprinting/</guid>
       <description></description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>https://dev-akamai.github.io/examples/multivariate-testing/</link>
+      <link>http://localhost:1313/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/multivariate-testing/</guid>
+      <guid>http://localhost:1313/examples/multivariate-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Origin Error Handling</title>
-      <link>https://dev-akamai.github.io/examples/origin-error-handling/</link>
+      <link>http://localhost:1313/examples/origin-error-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/origin-error-handling/</guid>
+      <guid>http://localhost:1313/examples/origin-error-handling/</guid>
       <description></description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>https://dev-akamai.github.io/examples/product-url-redirects/</link>
+      <link>http://localhost:1313/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/product-url-redirects/</guid>
+      <guid>http://localhost:1313/examples/product-url-redirects/</guid>
       <description></description>
     </item>
     <item>
       <title>Promo Code Validation</title>
-      <link>https://dev-akamai.github.io/examples/promo-code-validation/</link>
+      <link>http://localhost:1313/examples/promo-code-validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/promo-code-validation/</guid>
+      <guid>http://localhost:1313/examples/promo-code-validation/</guid>
       <description></description>
     </item>
     <item>
       <title>Response Manipulation</title>
-      <link>https://dev-akamai.github.io/examples/response-manipulation/</link>
+      <link>http://localhost:1313/examples/response-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/response-manipulation/</guid>
+      <guid>http://localhost:1313/examples/response-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Search User Details</title>
-      <link>https://dev-akamai.github.io/examples/search-user-details/</link>
+      <link>http://localhost:1313/examples/search-user-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/search-user-details/</guid>
+      <guid>http://localhost:1313/examples/search-user-details/</guid>
       <description></description>
     </item>
     <item>
       <title>Store Locator</title>
-      <link>https://dev-akamai.github.io/examples/store-locator/</link>
+      <link>http://localhost:1313/examples/store-locator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/store-locator/</guid>
+      <guid>http://localhost:1313/examples/store-locator/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>https://dev-akamai.github.io/examples/traffic-allow/</link>
+      <link>http://localhost:1313/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/traffic-allow/</guid>
+      <guid>http://localhost:1313/examples/traffic-allow/</guid>
       <description></description>
     </item>
     <item>
       <title>User Registration</title>
-      <link>https://dev-akamai.github.io/examples/user-registration/</link>
+      <link>http://localhost:1313/examples/user-registration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/user-registration/</guid>
+      <guid>http://localhost:1313/examples/user-registration/</guid>
       <description></description>
     </item>
   </channel>

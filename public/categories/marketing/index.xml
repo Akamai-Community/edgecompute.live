@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketing on Edge Compute Live</title>
-    <link>https://dev-akamai.github.io/categories/marketing/</link>
+    <link>http://localhost:1313/categories/marketing/</link>
     <description>Recent content in Marketing on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://dev-akamai.github.io/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>https://dev-akamai.github.io/examples/ab-testing/</link>
+      <link>http://localhost:1313/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ab-testing/</guid>
+      <guid>http://localhost:1313/examples/ab-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>A/B Testing with EdgeKV</title>
-      <link>https://dev-akamai.github.io/examples/ab-testing-with-edgekv/</link>
+      <link>http://localhost:1313/examples/ab-testing-with-edgekv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ab-testing-with-edgekv/</guid>
+      <guid>http://localhost:1313/examples/ab-testing-with-edgekv/</guid>
       <description></description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>https://dev-akamai.github.io/examples/multivariate-testing/</link>
+      <link>http://localhost:1313/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/multivariate-testing/</guid>
+      <guid>http://localhost:1313/examples/multivariate-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Promo Code Validation</title>
-      <link>https://dev-akamai.github.io/examples/promo-code-validation/</link>
+      <link>http://localhost:1313/examples/promo-code-validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/promo-code-validation/</guid>
+      <guid>http://localhost:1313/examples/promo-code-validation/</guid>
       <description></description>
     </item>
   </channel>

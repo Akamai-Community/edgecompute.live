@@ -2,85 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dev-akamai.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/ab-testing/</loc>
+    <loc>http://localhost:1313/examples/ab-testing/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/ab-testing-with-edgekv/</loc>
+    <loc>http://localhost:1313/examples/ab-testing-with-edgekv/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/api-orchestration/</loc>
+    <loc>http://localhost:1313/examples/api-orchestration/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/auth/</loc>
+    <loc>http://localhost:1313/categories/auth/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/autocomplete/</loc>
+    <loc>http://localhost:1313/examples/autocomplete/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/cachekey-device-type/</loc>
+    <loc>http://localhost:1313/examples/cachekey-device-type/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/conference-metting-details/</loc>
+    <loc>http://localhost:1313/examples/conference-metting-details/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/content-security-policy/</loc>
+    <loc>http://localhost:1313/examples/content-security-policy/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/cookie-geolocation/</loc>
+    <loc>http://localhost:1313/examples/cookie-geolocation/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/cookie-manipulation/</loc>
+    <loc>http://localhost:1313/examples/cookie-manipulation/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/developer-tools/</loc>
+    <loc>http://localhost:1313/categories/developer-tools/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/device-routing/</loc>
+    <loc>http://localhost:1313/examples/device-routing/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/dynamic-callback/</loc>
+    <loc>http://localhost:1313/examples/dynamic-callback/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/ecommerce/</loc>
+    <loc>http://localhost:1313/categories/ecommerce/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/ecommerce/</loc>
+    <loc>http://localhost:1313/examples/ecommerce/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/edgekv-hello-world/</loc>
+    <loc>http://localhost:1313/examples/edgekv-hello-world/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/</loc>
+    <loc>http://localhost:1313/examples/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/find-replace-stream/</loc>
+    <loc>http://localhost:1313/examples/find-replace-stream/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/geo-redirect/</loc>
+    <loc>http://localhost:1313/examples/geo-redirect/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/geolocation/</loc>
+    <loc>http://localhost:1313/categories/geolocation/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/geolocation/</loc>
+    <loc>http://localhost:1313/examples/geolocation/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/hello-world/</loc>
+    <loc>http://localhost:1313/examples/hello-world/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/html-rewriter/</loc>
+    <loc>http://localhost:1313/examples/html-rewriter/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/ja3-fingerprinting/</loc>
+    <loc>http://localhost:1313/examples/ja3-fingerprinting/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/marketing/</loc>
+    <loc>http://localhost:1313/categories/marketing/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/miscellaneous/</loc>
+    <loc>http://localhost:1313/categories/miscellaneous/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/multivariate-testing/</loc>
+    <loc>http://localhost:1313/examples/multivariate-testing/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/origin-error-handling/</loc>
+    <loc>http://localhost:1313/examples/origin-error-handling/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/performance/</loc>
+    <loc>http://localhost:1313/categories/performance/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/product-url-redirects/</loc>
+    <loc>http://localhost:1313/examples/product-url-redirects/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/promo-code-validation/</loc>
+    <loc>http://localhost:1313/examples/promo-code-validation/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/response-manipulation/</loc>
+    <loc>http://localhost:1313/examples/response-manipulation/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/search-user-details/</loc>
+    <loc>http://localhost:1313/examples/search-user-details/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/security/</loc>
+    <loc>http://localhost:1313/categories/security/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/store-locator/</loc>
+    <loc>http://localhost:1313/examples/store-locator/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/traffic-allow/</loc>
+    <loc>http://localhost:1313/examples/traffic-allow/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/categories/traffic-routing/</loc>
+    <loc>http://localhost:1313/categories/traffic-routing/</loc>
   </url><url>
-    <loc>https://dev-akamai.github.io/examples/user-registration/</loc>
+    <loc>http://localhost:1313/examples/user-registration/</loc>
   </url>
 </urlset>

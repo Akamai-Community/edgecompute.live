@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Traffic Routing on Edge Compute Live</title>
-    <link>https://dev-akamai.github.io/categories/traffic-routing/</link>
+    <link>http://localhost:1313/categories/traffic-routing/</link>
     <description>Recent content in Traffic Routing on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://dev-akamai.github.io/categories/traffic-routing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/traffic-routing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>https://dev-akamai.github.io/examples/ab-testing/</link>
+      <link>http://localhost:1313/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/ab-testing/</guid>
+      <guid>http://localhost:1313/examples/ab-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference/Meeting Details</title>
-      <link>https://dev-akamai.github.io/examples/conference-metting-details/</link>
+      <link>http://localhost:1313/examples/conference-metting-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/conference-metting-details/</guid>
+      <guid>http://localhost:1313/examples/conference-metting-details/</guid>
       <description></description>
     </item>
     <item>
       <title>Device Routing</title>
-      <link>https://dev-akamai.github.io/examples/device-routing/</link>
+      <link>http://localhost:1313/examples/device-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/device-routing/</guid>
+      <guid>http://localhost:1313/examples/device-routing/</guid>
       <description></description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>https://dev-akamai.github.io/examples/multivariate-testing/</link>
+      <link>http://localhost:1313/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/multivariate-testing/</guid>
+      <guid>http://localhost:1313/examples/multivariate-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>https://dev-akamai.github.io/examples/product-url-redirects/</link>
+      <link>http://localhost:1313/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/product-url-redirects/</guid>
+      <guid>http://localhost:1313/examples/product-url-redirects/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>https://dev-akamai.github.io/examples/traffic-allow/</link>
+      <link>http://localhost:1313/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/examples/traffic-allow/</guid>
+      <guid>http://localhost:1313/examples/traffic-allow/</guid>
       <description></description>
     </item>
   </channel>
