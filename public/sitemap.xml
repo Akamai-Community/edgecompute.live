@@ -2,85 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://dev-akamai.github.io/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://example.org/examples/ab-testing/</loc>
+    <loc>https://dev-akamai.github.io/examples/ab-testing/</loc>
   </url><url>
-    <loc>https://example.org/examples/ab-testing-with-edgekv/</loc>
+    <loc>https://dev-akamai.github.io/examples/ab-testing-with-edgekv/</loc>
   </url><url>
-    <loc>https://example.org/examples/api-orchestration/</loc>
+    <loc>https://dev-akamai.github.io/examples/api-orchestration/</loc>
   </url><url>
-    <loc>https://example.org/categories/auth/</loc>
+    <loc>https://dev-akamai.github.io/categories/auth/</loc>
   </url><url>
-    <loc>https://example.org/examples/autocomplete/</loc>
+    <loc>https://dev-akamai.github.io/examples/autocomplete/</loc>
   </url><url>
-    <loc>https://example.org/examples/cachekey-device-type/</loc>
+    <loc>https://dev-akamai.github.io/examples/cachekey-device-type/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://dev-akamai.github.io/categories/</loc>
   </url><url>
-    <loc>https://example.org/examples/conference-metting-details/</loc>
+    <loc>https://dev-akamai.github.io/examples/conference-metting-details/</loc>
   </url><url>
-    <loc>https://example.org/examples/content-security-policy/</loc>
+    <loc>https://dev-akamai.github.io/examples/content-security-policy/</loc>
   </url><url>
-    <loc>https://example.org/examples/cookie-geolocation/</loc>
+    <loc>https://dev-akamai.github.io/examples/cookie-geolocation/</loc>
   </url><url>
-    <loc>https://example.org/examples/cookie-manipulation/</loc>
+    <loc>https://dev-akamai.github.io/examples/cookie-manipulation/</loc>
   </url><url>
-    <loc>https://example.org/categories/developer-tools/</loc>
+    <loc>https://dev-akamai.github.io/categories/developer-tools/</loc>
   </url><url>
-    <loc>https://example.org/examples/device-routing/</loc>
+    <loc>https://dev-akamai.github.io/examples/device-routing/</loc>
   </url><url>
-    <loc>https://example.org/examples/dynamic-callback/</loc>
+    <loc>https://dev-akamai.github.io/examples/dynamic-callback/</loc>
   </url><url>
-    <loc>https://example.org/categories/ecommerce/</loc>
+    <loc>https://dev-akamai.github.io/categories/ecommerce/</loc>
   </url><url>
-    <loc>https://example.org/examples/ecommerce/</loc>
+    <loc>https://dev-akamai.github.io/examples/ecommerce/</loc>
   </url><url>
-    <loc>https://example.org/examples/edgekv-hello-world/</loc>
+    <loc>https://dev-akamai.github.io/examples/edgekv-hello-world/</loc>
   </url><url>
-    <loc>https://example.org/examples/</loc>
+    <loc>https://dev-akamai.github.io/examples/</loc>
   </url><url>
-    <loc>https://example.org/examples/find-replace-stream/</loc>
+    <loc>https://dev-akamai.github.io/examples/find-replace-stream/</loc>
   </url><url>
-    <loc>https://example.org/examples/geo-redirect/</loc>
+    <loc>https://dev-akamai.github.io/examples/geo-redirect/</loc>
   </url><url>
-    <loc>https://example.org/categories/geolocation/</loc>
+    <loc>https://dev-akamai.github.io/categories/geolocation/</loc>
   </url><url>
-    <loc>https://example.org/examples/geolocation/</loc>
+    <loc>https://dev-akamai.github.io/examples/geolocation/</loc>
   </url><url>
-    <loc>https://example.org/examples/hello-world/</loc>
+    <loc>https://dev-akamai.github.io/examples/hello-world/</loc>
   </url><url>
-    <loc>https://example.org/examples/html-rewriter/</loc>
+    <loc>https://dev-akamai.github.io/examples/html-rewriter/</loc>
   </url><url>
-    <loc>https://example.org/examples/ja3-fingerprinting/</loc>
+    <loc>https://dev-akamai.github.io/examples/ja3-fingerprinting/</loc>
   </url><url>
-    <loc>https://example.org/categories/marketing/</loc>
+    <loc>https://dev-akamai.github.io/categories/marketing/</loc>
   </url><url>
-    <loc>https://example.org/categories/miscellaneous/</loc>
+    <loc>https://dev-akamai.github.io/categories/miscellaneous/</loc>
   </url><url>
-    <loc>https://example.org/examples/multivariate-testing/</loc>
+    <loc>https://dev-akamai.github.io/examples/multivariate-testing/</loc>
   </url><url>
-    <loc>https://example.org/examples/origin-error-handling/</loc>
+    <loc>https://dev-akamai.github.io/examples/origin-error-handling/</loc>
   </url><url>
-    <loc>https://example.org/categories/performance/</loc>
+    <loc>https://dev-akamai.github.io/categories/performance/</loc>
   </url><url>
-    <loc>https://example.org/examples/product-url-redirects/</loc>
+    <loc>https://dev-akamai.github.io/examples/product-url-redirects/</loc>
   </url><url>
-    <loc>https://example.org/examples/promo-code-validation/</loc>
+    <loc>https://dev-akamai.github.io/examples/promo-code-validation/</loc>
   </url><url>
-    <loc>https://example.org/examples/response-manipulation/</loc>
+    <loc>https://dev-akamai.github.io/examples/response-manipulation/</loc>
   </url><url>
-    <loc>https://example.org/examples/search-user-details/</loc>
+    <loc>https://dev-akamai.github.io/examples/search-user-details/</loc>
   </url><url>
-    <loc>https://example.org/categories/security/</loc>
+    <loc>https://dev-akamai.github.io/categories/security/</loc>
   </url><url>
-    <loc>https://example.org/examples/store-locator/</loc>
+    <loc>https://dev-akamai.github.io/examples/store-locator/</loc>
   </url><url>
-    <loc>https://example.org/examples/traffic-allow/</loc>
+    <loc>https://dev-akamai.github.io/examples/traffic-allow/</loc>
   </url><url>
-    <loc>https://example.org/categories/traffic-routing/</loc>
+    <loc>https://dev-akamai.github.io/categories/traffic-routing/</loc>
   </url><url>
-    <loc>https://example.org/examples/user-registration/</loc>
+    <loc>https://dev-akamai.github.io/examples/user-registration/</loc>
   </url>
 </urlset>

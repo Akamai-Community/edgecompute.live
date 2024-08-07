@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developer Tools on Edge Compute Live</title>
-    <link>https://example.org/categories/developer-tools/</link>
+    <link>https://dev-akamai.github.io/categories/developer-tools/</link>
     <description>Recent content in Developer Tools on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/categories/developer-tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dev-akamai.github.io/categories/developer-tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API Orchestration</title>
-      <link>https://example.org/examples/api-orchestration/</link>
+      <link>https://dev-akamai.github.io/examples/api-orchestration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/api-orchestration/</guid>
+      <guid>https://dev-akamai.github.io/examples/api-orchestration/</guid>
       <description></description>
     </item>
     <item>
       <title>Cachekey Device Type</title>
-      <link>https://example.org/examples/cachekey-device-type/</link>
+      <link>https://dev-akamai.github.io/examples/cachekey-device-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/cachekey-device-type/</guid>
+      <guid>https://dev-akamai.github.io/examples/cachekey-device-type/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie Manipulation</title>
-      <link>https://example.org/examples/cookie-manipulation/</link>
+      <link>https://dev-akamai.github.io/examples/cookie-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/cookie-manipulation/</guid>
+      <guid>https://dev-akamai.github.io/examples/cookie-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Device Routing</title>
-      <link>https://example.org/examples/device-routing/</link>
+      <link>https://dev-akamai.github.io/examples/device-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/device-routing/</guid>
+      <guid>https://dev-akamai.github.io/examples/device-routing/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Callback</title>
-      <link>https://example.org/examples/dynamic-callback/</link>
+      <link>https://dev-akamai.github.io/examples/dynamic-callback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/dynamic-callback/</guid>
+      <guid>https://dev-akamai.github.io/examples/dynamic-callback/</guid>
       <description></description>
     </item>
     <item>
       <title>EdgeKV Hello World</title>
-      <link>https://example.org/examples/edgekv-hello-world/</link>
+      <link>https://dev-akamai.github.io/examples/edgekv-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/edgekv-hello-world/</guid>
+      <guid>https://dev-akamai.github.io/examples/edgekv-hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>Find Replace Stream</title>
-      <link>https://example.org/examples/find-replace-stream/</link>
+      <link>https://dev-akamai.github.io/examples/find-replace-stream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/find-replace-stream/</guid>
+      <guid>https://dev-akamai.github.io/examples/find-replace-stream/</guid>
       <description></description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>https://example.org/examples/hello-world/</link>
+      <link>https://dev-akamai.github.io/examples/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/hello-world/</guid>
+      <guid>https://dev-akamai.github.io/examples/hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML Rewriter</title>
-      <link>https://example.org/examples/html-rewriter/</link>
+      <link>https://dev-akamai.github.io/examples/html-rewriter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/html-rewriter/</guid>
+      <guid>https://dev-akamai.github.io/examples/html-rewriter/</guid>
       <description></description>
     </item>
     <item>
       <title>Origin Error Handling</title>
-      <link>https://example.org/examples/origin-error-handling/</link>
+      <link>https://dev-akamai.github.io/examples/origin-error-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/origin-error-handling/</guid>
+      <guid>https://dev-akamai.github.io/examples/origin-error-handling/</guid>
       <description></description>
     </item>
     <item>
       <title>Response Manipulation</title>
-      <link>https://example.org/examples/response-manipulation/</link>
+      <link>https://dev-akamai.github.io/examples/response-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/response-manipulation/</guid>
+      <guid>https://dev-akamai.github.io/examples/response-manipulation/</guid>
       <description></description>
     </item>
   </channel>

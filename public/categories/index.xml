@@ -2,72 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Edge Compute Live</title>
-    <link>https://example.org/categories/</link>
+    <link>https://dev-akamai.github.io/categories/</link>
     <description>Recent content in Categories on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dev-akamai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auth</title>
-      <link>https://example.org/categories/auth/</link>
+      <link>https://dev-akamai.github.io/categories/auth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/auth/</guid>
+      <guid>https://dev-akamai.github.io/categories/auth/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer Tools</title>
-      <link>https://example.org/categories/developer-tools/</link>
+      <link>https://dev-akamai.github.io/categories/developer-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/developer-tools/</guid>
+      <guid>https://dev-akamai.github.io/categories/developer-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecommerce</title>
-      <link>https://example.org/categories/ecommerce/</link>
+      <link>https://dev-akamai.github.io/categories/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/ecommerce/</guid>
+      <guid>https://dev-akamai.github.io/categories/ecommerce/</guid>
       <description></description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>https://example.org/categories/geolocation/</link>
+      <link>https://dev-akamai.github.io/categories/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/geolocation/</guid>
+      <guid>https://dev-akamai.github.io/categories/geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing</title>
-      <link>https://example.org/categories/marketing/</link>
+      <link>https://dev-akamai.github.io/categories/marketing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/marketing/</guid>
+      <guid>https://dev-akamai.github.io/categories/marketing/</guid>
       <description></description>
     </item>
     <item>
       <title>Miscellaneous</title>
-      <link>https://example.org/categories/miscellaneous/</link>
+      <link>https://dev-akamai.github.io/categories/miscellaneous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/miscellaneous/</guid>
+      <guid>https://dev-akamai.github.io/categories/miscellaneous/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://example.org/categories/performance/</link>
+      <link>https://dev-akamai.github.io/categories/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/performance/</guid>
+      <guid>https://dev-akamai.github.io/categories/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://example.org/categories/security/</link>
+      <link>https://dev-akamai.github.io/categories/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/security/</guid>
+      <guid>https://dev-akamai.github.io/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Routing</title>
-      <link>https://example.org/categories/traffic-routing/</link>
+      <link>https://dev-akamai.github.io/categories/traffic-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/traffic-routing/</guid>
+      <guid>https://dev-akamai.github.io/categories/traffic-routing/</guid>
       <description></description>
     </item>
   </channel>

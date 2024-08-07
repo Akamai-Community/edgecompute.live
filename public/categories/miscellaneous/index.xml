@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Miscellaneous on Edge Compute Live</title>
-    <link>https://example.org/categories/miscellaneous/</link>
+    <link>https://dev-akamai.github.io/categories/miscellaneous/</link>
     <description>Recent content in Miscellaneous on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dev-akamai.github.io/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autocomplete</title>
-      <link>https://example.org/examples/autocomplete/</link>
+      <link>https://dev-akamai.github.io/examples/autocomplete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/examples/autocomplete/</guid>
+      <guid>https://dev-akamai.github.io/examples/autocomplete/</guid>
       <description></description>
     </item>
   </channel>
