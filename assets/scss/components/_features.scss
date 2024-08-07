@@ -18,6 +18,13 @@
 				flex: 0 0 100%;
 			}
 		}
+
+		.grid__col--1of2 {
+			@include breakpoint-down(mobile) {
+				max-width: 100%;
+				flex: 0 0 100%;
+			}
+		}
 	}
 
 	.feature {
@@ -68,6 +75,10 @@
 .feature--alt {
 	display: flex;
 	padding: 2.4rem;
+
+	@include breakpoint-down(tablet) {
+		display: block;
+	}
 
 	.feature__head {
 		display: block;

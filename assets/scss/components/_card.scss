@@ -11,6 +11,10 @@
 	padding: 2.8rem 2.8rem 8.2rem;
 	text-align: center;
 
+	@include breakpoint-down(mobile) {
+		padding: 2.8rem 2.8rem 8.7rem;
+	}
+
 	> a:first-child {
 		position: absolute;
 		top: 0;

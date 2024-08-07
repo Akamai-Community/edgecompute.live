@@ -21,6 +21,12 @@
 			flex: 0 0 50%;
 			max-width: 50%;
 			width: 50%;
+
+			@include breakpoint-down(tablet) {
+				flex: 0 0 100%;
+				max-width: 100%;
+				width: 100%;
+			}
 		}
 	}
 
@@ -79,11 +85,20 @@
 	.tabs__body {
 		display: flex;
 
+		@include breakpoint-down(tablet) {
+			flex-wrap: wrap;
+		}
+
 		.tab {
 			display: none;
 			flex: 1;
 			overflow-y: auto;
 			height: 47.2rem;
+
+			@include breakpoint-down(tablet) {
+				height: auto;
+				max-height: 30rem;
+			}
 		}
 
 		.tab.current {
