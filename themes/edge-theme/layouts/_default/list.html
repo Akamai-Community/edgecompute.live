@@ -41,14 +41,6 @@
 				<div class="listing js-listing">
 					<div class="cards">
 						<div class="grid">
-							{{/*  {{ $category := .Params.term }}  */}}
-
-							{{/*  {{ $filteredPages := where (where .Site.Pages "Type" "examples") "Kind" "page" }}
-
-							{{ if $category }}
-								{{ $filteredPages = where $filteredPages "Params.categories" "in" $category }}
-							{{ end }}  */}}
-
 							{{ $paginator := .Paginate .Pages }}
 
 							{{ range $paginator.Pages }}

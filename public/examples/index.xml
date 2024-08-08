@@ -2,205 +2,205 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Examples on Edge Compute Live</title>
-    <link>http://localhost:53874/examples/</link>
+    <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/</link>
     <description>Recent content in Examples on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:53874/examples/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing</title>
-      <link>http://localhost:53874/examples/ab-testing/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ab-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/ab-testing/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ab-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>A/B Testing with EdgeKV</title>
-      <link>http://localhost:53874/examples/ab-testing-with-edgekv/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/ab-testing-with-edgekv/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</guid>
       <description></description>
     </item>
     <item>
       <title>API Orchestration</title>
-      <link>http://localhost:53874/examples/api-orchestration/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/api-orchestration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/api-orchestration/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/api-orchestration/</guid>
       <description></description>
     </item>
     <item>
       <title>Autocomplete</title>
-      <link>http://localhost:53874/examples/autocomplete/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/autocomplete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/autocomplete/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/autocomplete/</guid>
       <description></description>
     </item>
     <item>
       <title>Cachekey Device Type</title>
-      <link>http://localhost:53874/examples/cachekey-device-type/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/cachekey-device-type/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</guid>
       <description></description>
     </item>
     <item>
       <title>Conference/Meeting Details</title>
-      <link>http://localhost:53874/examples/conference-metting-details/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/conference-metting-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/conference-metting-details/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/conference-metting-details/</guid>
       <description></description>
     </item>
     <item>
       <title>Content Security Policy</title>
-      <link>http://localhost:53874/examples/content-security-policy/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/content-security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/content-security-policy/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/content-security-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie Geolocation</title>
-      <link>http://localhost:53874/examples/cookie-geolocation/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/cookie-geolocation/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cookie Manipulation</title>
-      <link>http://localhost:53874/examples/cookie-manipulation/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/cookie-manipulation/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Device Routing</title>
-      <link>http://localhost:53874/examples/device-routing/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/device-routing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/device-routing/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/device-routing/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Callback</title>
-      <link>http://localhost:53874/examples/dynamic-callback/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/dynamic-callback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/dynamic-callback/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/dynamic-callback/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecommerce</title>
-      <link>http://localhost:53874/examples/ecommerce/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/ecommerce/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ecommerce/</guid>
       <description></description>
     </item>
     <item>
       <title>EdgeKV Hello World</title>
-      <link>http://localhost:53874/examples/edgekv-hello-world/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/edgekv-hello-world/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>Find Replace Stream</title>
-      <link>http://localhost:53874/examples/find-replace-stream/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/find-replace-stream/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/find-replace-stream/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/find-replace-stream/</guid>
       <description></description>
     </item>
     <item>
       <title>Geo Redirect</title>
-      <link>http://localhost:53874/examples/geo-redirect/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geo-redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/geo-redirect/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geo-redirect/</guid>
       <description></description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>http://localhost:53874/examples/geolocation/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/geolocation/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:53874/examples/hello-world/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/hello-world/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML Rewriter</title>
-      <link>http://localhost:53874/examples/html-rewriter/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/html-rewriter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/html-rewriter/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/html-rewriter/</guid>
       <description></description>
     </item>
     <item>
       <title>JA3 Fingerprinting</title>
-      <link>http://localhost:53874/examples/ja3-fingerprinting/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/ja3-fingerprinting/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</guid>
       <description></description>
     </item>
     <item>
       <title>Multivariate Testing</title>
-      <link>http://localhost:53874/examples/multivariate-testing/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/multivariate-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/multivariate-testing/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/multivariate-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Origin Error Handling</title>
-      <link>http://localhost:53874/examples/origin-error-handling/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/origin-error-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/origin-error-handling/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/origin-error-handling/</guid>
       <description></description>
     </item>
     <item>
       <title>Product URL Redirects</title>
-      <link>http://localhost:53874/examples/product-url-redirects/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/product-url-redirects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/product-url-redirects/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/product-url-redirects/</guid>
       <description></description>
     </item>
     <item>
       <title>Promo Code Validation</title>
-      <link>http://localhost:53874/examples/promo-code-validation/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/promo-code-validation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/promo-code-validation/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/promo-code-validation/</guid>
       <description></description>
     </item>
     <item>
       <title>Response Manipulation</title>
-      <link>http://localhost:53874/examples/response-manipulation/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/response-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/response-manipulation/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/response-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Search User Details</title>
-      <link>http://localhost:53874/examples/search-user-details/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/search-user-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/search-user-details/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/search-user-details/</guid>
       <description></description>
     </item>
     <item>
       <title>Store Locator</title>
-      <link>http://localhost:53874/examples/store-locator/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/store-locator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/store-locator/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>http://localhost:53874/examples/traffic-allow/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/traffic-allow/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
       <description></description>
     </item>
     <item>
       <title>User Registration</title>
-      <link>http://localhost:53874/examples/user-registration/</link>
+      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/user-registration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53874/examples/user-registration/</guid>
+      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/user-registration/</guid>
       <description></description>
     </item>
   </channel>

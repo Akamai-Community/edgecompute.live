@@ -50,13 +50,18 @@
 			--gap-x: .8rem;
 			--gap-y: .8rem;
 			margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
+
+			+ ul {
+				margin-top: .5rem;
+			}
 		}
 
 		li {
 			padding: calc(var(--gap-y, 0px) / 2) calc(var(--gap-x, 0px) / 2);
 		}
 
-		span {
+		span,
+		a {
 			text-decoration: none;
 			display: inline-block;
 			padding: .8rem 1.6rem;
@@ -76,7 +81,8 @@
 			}
 		}
 
-		li.current span {
+		li.current span,
+		li.current a {
 			background-color: var(--c-white);
 			color: var(--c-black-2);
 		}

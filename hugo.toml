@@ -1,4 +1,4 @@
-baseURL = 'https://dev-akamai.github.io/'
+baseURL = 'https://dev-akamai.github.io/Akamai-Edge-Compute-Live/'
 languageCode = 'en-us'
 title = 'Edge Compute Live'
 theme = 'edge-theme'

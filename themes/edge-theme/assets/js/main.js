@@ -284,7 +284,7 @@
 		e.preventDefault();
 
 		const selectedCategory = toUrlFriendly($('#category').val());
-		const baseURL = window.location.origin + '/Akamai-Edge-Compute-Live';
+		const baseURL = window.location.origin + '';
 
 		if (selectedCategory) {
 			window.location.href = baseURL + '/categories/' + encodeURIComponent(selectedCategory) + '/';
@@ -296,8 +296,13 @@
 	/**
 	 * Handle Example Demo change.
 	 */
-	$('.section__nav').on('click', 'a[data-demo-url]', function(e) {
+	$('.js-demos').on('click', 'a[data-demo-url]', function(e) {
         e.preventDefault();
+
+		$(this).parent()
+			.addClass('current')
+			.siblings()
+				.removeClass('current');
 
         const newSrc = $(this).data('demo-url');
         $('.js-demo-iframe').attr('src', newSrc);

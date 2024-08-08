@@ -2,85 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53874/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:53874/examples/ab-testing/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ab-testing/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/ab-testing-with-edgekv/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ab-testing-with-edgekv/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/api-orchestration/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/api-orchestration/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/auth/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/auth/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/autocomplete/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/autocomplete/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/cachekey-device-type/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cachekey-device-type/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/conference-metting-details/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/conference-metting-details/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/content-security-policy/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/content-security-policy/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/cookie-geolocation/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/cookie-manipulation/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-manipulation/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/developer-tools/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/developer-tools/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/device-routing/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/device-routing/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/dynamic-callback/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/dynamic-callback/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/ecommerce/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/ecommerce/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/ecommerce/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ecommerce/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/edgekv-hello-world/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/edgekv-hello-world/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/find-replace-stream/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/find-replace-stream/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/geo-redirect/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geo-redirect/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/geolocation/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/geolocation/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/geolocation/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geolocation/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/hello-world/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/hello-world/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/html-rewriter/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/html-rewriter/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/ja3-fingerprinting/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/ja3-fingerprinting/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/marketing/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/marketing/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/miscellaneous/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/miscellaneous/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/multivariate-testing/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/multivariate-testing/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/origin-error-handling/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/origin-error-handling/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/performance/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/performance/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/product-url-redirects/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/product-url-redirects/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/promo-code-validation/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/promo-code-validation/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/response-manipulation/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/response-manipulation/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/search-user-details/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/search-user-details/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/security/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/security/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/store-locator/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/store-locator/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/traffic-allow/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/traffic-allow/</loc>
   </url><url>
-    <loc>http://localhost:53874/categories/traffic-routing/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/traffic-routing/</loc>
   </url><url>
-    <loc>http://localhost:53874/examples/user-registration/</loc>
+    <loc>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/user-registration/</loc>
   </url>
 </urlset>

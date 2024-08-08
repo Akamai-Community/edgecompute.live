@@ -7,15 +7,9 @@
 					<p>Examples</p>
 
 					<ul>
-						{{ with .Params.demoURLs }}
-							{{ range $index, $url := . }}
-								<li>
-									<a href="#" data-demo-url="{{ $url }}">Example {{ add $index 1 }}</a>
-								</li>
-							{{ end }}
-						{{ else }}
+						{{ range where .Site.RegularPages "Section" "examples" }}
 							<li>
-								<a href="#" data-demo-url="{{ .Params.demoURL }}">Example 1</a>
+								<a href="{{ .Permalink }}">{{ .Title }}</a>
 							</li>
 						{{ end }}
 					</ul>
@@ -93,6 +87,16 @@
 										<span data-target="*">Both</span>
 									</li>
 								</ul>
+
+								{{ with .Params.demoURLs }}
+									<ul class="js-demos">
+										{{ range $index, $url := . }}
+											<li class="{{ if eq $index 0 }}current{{ end }}">
+												<a href="#" data-demo-url="{{ $url }}">Demo {{ add $index 1 }}</a>
+											</li>
+										{{ end }}
+									</ul>
+								{{ end }}
 							</nav><!-- /.nav tabs__nav -->
 
 							<span class="btn-copy js-copy-code">
@@ -169,10 +173,4 @@
 	</div><!-- /.shell -->
 </section><!-- /.section- -->
 
-  {{/*  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>  */}}
-
-  {{/*  {{ .Content }}  */}}
-  {{/*  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}  */}}
 {{ end }}

@@ -13,7 +13,7 @@
 		display: flex;
 		justify-content: space-between;
 
-		@include breakpoint-down(mobile) {
+		@include breakpoint-down(tablet) {
 			flex-wrap: wrap;
 		}
 	}
@@ -24,17 +24,12 @@
 		border-right: 1px solid rgba($color: #909090, $alpha: 0.15);
 
 		@include breakpoint-down(tablet) {
-			flex: 0 0 12rem;
-			max-width: 12rem;
-		}
-
-		@include breakpoint-down(mobile) {
 			flex: 0 0 100%;
 			max-width: 100%;
-			border-bottom: 1px solid rgba($color: #909090, $alpha: 0.15);
+			order: 2;
 			border-right: 0;
-			padding-bottom: 2rem;
-			margin-bottom: 2rem;
+			border-top: 1px solid rgba($color: #909090, $alpha: 0.15);
+			margin-top: 4rem;
 		}
 	}
 
@@ -44,14 +39,9 @@
 		padding-left: 4.8rem;
 
 		@include breakpoint-down(tablet) {
-			flex: 0 0 calc(100% - 12rem);
-			max-width: calc(100% - 12rem);
-		}
-
-		@include breakpoint-down(mobile) {
-			padding-left: 0;
-			max-width: 100%;
 			flex: 0 0 100%;
+			max-width: 100%;
+			padding-left: 0;
 		}
 	}
 
@@ -59,6 +49,11 @@
 		padding-top: 2.4rem;
 		font-weight: 500;
 		color: var(--c-black-2);
+		padding-right: 2rem;
+
+		@include breakpoint-down(tablet) {
+			padding-right: 0;
+		}
 
 		p {
 			text-transform: uppercase;
@@ -70,8 +65,25 @@
 		ul {
 			list-style-type: none;
 
+			@include breakpoint-down(tablet) {
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
 			li + li {
 				margin-top: 1.6rem;
+
+				@include breakpoint-down(tablet) {
+					margin-top: 0;
+				}
+			}
+
+			li {
+				@include breakpoint-down(tablet) {
+					margin-right: 3rem;
+					padding: .4rem 0;
+				}
 			}
 		}
 
@@ -105,6 +117,8 @@
 			--gap-x: 0px;
 			--gap-y: 2rem;
 			margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
+			margin-bottom: 3rem;
+			padding-bottom: 1rem;
 		}
 
 		> * {
@@ -230,6 +244,12 @@
 
 		&:last-child {
 			margin-bottom: 0;
+		}
+
+		iframe {
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			height: auto;
 		}
 	}
 

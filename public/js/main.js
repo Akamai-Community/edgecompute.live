@@ -171,15 +171,16 @@
     $(".js-filters-apply").on("click", function(e) {
       e.preventDefault();
       const selectedCategory = toUrlFriendly($("#category").val());
-      const baseURL = window2.location.origin + "/Akamai-Edge-Compute-Live";
+      const baseURL = window2.location.origin + "";
       if (selectedCategory) {
         window2.location.href = baseURL + "/categories/" + encodeURIComponent(selectedCategory) + "/";
       } else if (selectedCategory === "") {
         window2.location.href = baseURL + "/examples/";
       }
     });
-    $(".section__nav").on("click", "a[data-demo-url]", function(e) {
+    $(".js-demos").on("click", "a[data-demo-url]", function(e) {
       e.preventDefault();
+      $(this).parent().addClass("current").siblings().removeClass("current");
       const newSrc = $(this).data("demo-url");
       $(".js-demo-iframe").attr("src", newSrc);
       $(".js-demo-url").text(newSrc);

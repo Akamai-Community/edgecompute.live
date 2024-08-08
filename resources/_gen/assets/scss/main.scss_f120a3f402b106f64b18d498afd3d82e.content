@@ -998,7 +998,7 @@ body.nav-open {
   .section-single-post .section__inner {
     display: flex;
     justify-content: space-between; }
-    @media (max-width: 767px) {
+    @media (max-width: 1079px) {
       .section-single-post .section__inner {
         flex-wrap: wrap; } }
   .section-single-post .section__aside {
@@ -1007,33 +1007,29 @@ body.nav-open {
     border-right: 1px solid rgba(144, 144, 144, 0.15); }
     @media (max-width: 1079px) {
       .section-single-post .section__aside {
-        flex: 0 0 12rem;
-        max-width: 12rem; } }
-    @media (max-width: 767px) {
-      .section-single-post .section__aside {
         flex: 0 0 100%;
         max-width: 100%;
-        border-bottom: 1px solid rgba(144, 144, 144, 0.15);
+        order: 2;
         border-right: 0;
-        padding-bottom: 2rem;
-        margin-bottom: 2rem; } }
+        border-top: 1px solid rgba(144, 144, 144, 0.15);
+        margin-top: 4rem; } }
   .section-single-post .section__main {
     flex: 0 0 calc(100% - 20.1rem);
     max-width: calc(100% - 20.1rem);
     padding-left: 4.8rem; }
     @media (max-width: 1079px) {
       .section-single-post .section__main {
-        flex: 0 0 calc(100% - 12rem);
-        max-width: calc(100% - 12rem); } }
-    @media (max-width: 767px) {
-      .section-single-post .section__main {
-        padding-left: 0;
+        flex: 0 0 100%;
         max-width: 100%;
-        flex: 0 0 100%; } }
+        padding-left: 0; } }
   .section-single-post .section__nav {
     padding-top: 2.4rem;
     font-weight: 500;
-    color: var(--c-black-2); }
+    color: var(--c-black-2);
+    padding-right: 2rem; }
+    @media (max-width: 1079px) {
+      .section-single-post .section__nav {
+        padding-right: 0; } }
     .section-single-post .section__nav p {
       text-transform: uppercase;
       margin-bottom: 1.6rem;
@@ -1041,8 +1037,20 @@ body.nav-open {
       line-height: 1.33; }
     .section-single-post .section__nav ul {
       list-style-type: none; }
+      @media (max-width: 1079px) {
+        .section-single-post .section__nav ul {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap; } }
       .section-single-post .section__nav ul li + li {
         margin-top: 1.6rem; }
+        @media (max-width: 1079px) {
+          .section-single-post .section__nav ul li + li {
+            margin-top: 0; } }
+      @media (max-width: 1079px) {
+        .section-single-post .section__nav ul li {
+          margin-right: 3rem;
+          padding: .4rem 0; } }
     .section-single-post .section__nav a {
       text-decoration: none;
       display: inline-block;
@@ -1064,7 +1072,9 @@ body.nav-open {
         flex-wrap: wrap;
         --gap-x: 0px;
         --gap-y: 2rem;
-        margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1)); } }
+        margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1));
+        margin-bottom: 3rem;
+        padding-bottom: 1rem; } }
     @media (max-width: 1079px) {
       .section-single-post .section__head > * {
         padding: calc(var(--gap-y, 0px) / 2) calc(var(--gap-x, 0px) / 2); } }
@@ -1143,6 +1153,10 @@ body.nav-open {
     margin-bottom: 5.4rem; }
     .section-single-post .section__entry:last-child {
       margin-bottom: 0; }
+    .section-single-post .section__entry iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      height: auto; }
   .section-single-post .tabs-code {
     margin-bottom: 5.6rem; }
     .section-single-post .tabs-code:last-child {
@@ -1209,9 +1223,12 @@ body.nav-open {
       --gap-x: .8rem;
       --gap-y: .8rem;
       margin: calc(((var(--gap-y, 0px) / 2) * -1)) calc(((var(--gap-x, 0px) / 2) * -1)); }
+      .tabs-code .tabs__nav ul + ul {
+        margin-top: .5rem; }
     .tabs-code .tabs__nav li {
       padding: calc(var(--gap-y, 0px) / 2) calc(var(--gap-x, 0px) / 2); }
-    .tabs-code .tabs__nav span {
+    .tabs-code .tabs__nav span,
+    .tabs-code .tabs__nav a {
       text-decoration: none;
       display: inline-block;
       padding: .8rem 1.6rem;
@@ -1223,10 +1240,12 @@ body.nav-open {
       border-radius: .2rem;
       cursor: pointer; }
       @media (min-width: 1079.02px) {
-        .tabs-code .tabs__nav span:hover {
+        .tabs-code .tabs__nav span:hover,
+        .tabs-code .tabs__nav a:hover {
           background-color: var(--c-white);
           color: var(--c-black-2); } }
-    .tabs-code .tabs__nav li.current span {
+    .tabs-code .tabs__nav li.current span,
+    .tabs-code .tabs__nav li.current a {
       background-color: var(--c-white);
       color: var(--c-black-2); }
   .tabs-code .tabs__body {
