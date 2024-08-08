@@ -39,9 +39,10 @@
     <div class="card__body">
         <div class="card__tags">
             <ul>
+				{{ $baseURL := .Site.BaseURL }}
                 {{ range .Params.categories }}
                 <li>
-                    <a href="{{ .Site.BaseURL }}/categories/{{ . | urlize }}" class="type-tag">{{ . }}</a>
+                    <a href="{{ $baseURL }}/categories/{{ . | urlize }}" class="type-tag">{{ . }}</a>
                 </li>
                 {{ end }}
             </ul>
