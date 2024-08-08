@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geolocation on Edge Compute Live</title>
-    <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/geolocation/</link>
+    <link>http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/</link>
     <description>Recent content in Geolocation on Edge Compute Live</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://dev-akamai.github.io/Akamai-Edge-Compute-Live/categories/geolocation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53874/Akamai-Edge-Compute-Live/categories/geolocation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cookie Geolocation</title>
-      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
+      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
+      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/cookie-geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Geo Redirect</title>
-      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geo-redirect/</link>
+      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geo-redirect/</guid>
+      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geo-redirect/</guid>
       <description></description>
     </item>
     <item>
       <title>Geolocation</title>
-      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geolocation/</link>
+      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
+      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/geolocation/</guid>
       <description></description>
     </item>
     <item>
       <title>Store Locator</title>
-      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/store-locator/</link>
+      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
+      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/store-locator/</guid>
       <description></description>
     </item>
     <item>
       <title>Traffic Allow</title>
-      <link>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
+      <link>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dev-akamai.github.io/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
+      <guid>http://localhost:53874/Akamai-Edge-Compute-Live/examples/traffic-allow/</guid>
       <description></description>
     </item>
   </channel>

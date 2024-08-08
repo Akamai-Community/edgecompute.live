@@ -273,7 +273,8 @@
 	 * Handle select filter.
 	 */
 	const pathArray = window.location.pathname.split('/');
-	const categoryFromURL = fromUrlFriendly(decodeURIComponent(pathArray[2]));
+
+	const categoryFromURL = fromUrlFriendly(decodeURIComponent(pathArray[pathArray.length - 2]));
 	const isFoundCategory = $('#category option').filter((_, option) => $(option).val() === categoryFromURL).length > 0;
 
 	if (isFoundCategory) {
@@ -284,7 +285,7 @@
 		e.preventDefault();
 
 		const selectedCategory = toUrlFriendly($('#category').val());
-		const baseURL = window.location.origin + '';
+		const baseURL = $(this).data('base-url');
 
 		if (selectedCategory) {
 			window.location.href = baseURL + '/categories/' + encodeURIComponent(selectedCategory) + '/';
