@@ -1,7 +1,6 @@
 +++
 title = 'Response Manipulation'
 draft = false
-description = 'Demonstrates how an EdgeWorker can modify an HTML response stream by adding content to the response. The example adds a script to the page just before the closing head tag.'
 categories = ['Developer Tools']
 modules = ['streams', 'http-request', 'create-response', 'text-encode-transform']
 icon = ''
@@ -16,3 +15,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+Demonstrates how an EdgeWorker can modify an HTML response stream by adding content to the response. The example adds a script to the page just before the closing head tag.

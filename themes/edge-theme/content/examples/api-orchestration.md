@@ -1,7 +1,6 @@
 +++
 title = 'API Orchestration'
 draft = false
-description = 'Demonstrates how EdgeWorkers can be used to merge multiple internal APIs into a single API response from a user experience perspective.'
 categories = ['Developer Tools']
 modules = ['http-request', 'create-response']
 icon = ''
@@ -16,3 +15,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+Demonstrates how EdgeWorkers can be used to merge multiple internal APIs into a single API response from a user experience perspective.

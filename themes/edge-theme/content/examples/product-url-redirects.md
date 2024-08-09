@@ -1,7 +1,6 @@
 +++
 title = 'Product URL Redirects'
 draft = false
-description = "Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews <br><br>This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page. <br><br><iframe width='560' height='315' src='https://www.youtube.com/embed/DAFmdGi_XQo?si=opditGW5xdmZnDBQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
 categories = ['Ecommerce', 'Traffic Routing']
 modules = ['edgekv']
 icon = ''
@@ -18,3 +17,9 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+Note the URL path changing from /sku/483D5F/reviews to products/straight-fit-denim-jeans/reviews
+
+This example uses EdgeWorkers + EdgeKV to extract a query string product SKU from an incoming URL, match it against a SKU stored in a KV database, and properly redirect the browser to the new product page.
+
+<iframe width='560' height='315' src='https://www.youtube.com/embed/DAFmdGi_XQo?si=opditGW5xdmZnDBQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>

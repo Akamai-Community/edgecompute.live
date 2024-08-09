@@ -1,7 +1,6 @@
 +++
 title = 'Promo Code Validation'
 draft = false
-description = "The Promo Code Validation example demonstrates how you can use EdgeWorkers and EdgeKV to validate promo codes at the Edge. A list of promo codes with valid date ranges is stored in EdgeKV. It also shows how you could use the getJson() helper method."
 categories = ['Marketing']
 modules = ['url-search-params', 'create-response', 'edgekv']
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Core Concepts' = "Helps developers understand the fundamental processes needed for edge computing."
 
 +++
+
+The Promo Code Validation example demonstrates how you can use EdgeWorkers and EdgeKV to validate promo codes at the Edge. A list of promo codes with valid date ranges is stored in EdgeKV. It also shows how you could use the getJson() helper method.

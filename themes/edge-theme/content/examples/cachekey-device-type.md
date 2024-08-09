@@ -1,7 +1,6 @@
 +++
 title = 'Cachekey Device Type'
 draft = false
-description = 'This example includes the device type (tablet or mobile) from a PMUSER variable in the computed cache key for an Edge Server.'
 categories = ['Performance', 'Developer Tools']
 modules = []
 icon = ''
@@ -16,3 +15,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Cache Integration' = "Combine performance benefits from CDN caching with dynamic edge compute logic."
 
 +++
+
+This example includes the device type (tablet or mobile) from a PMUSER variable in the computed cache key for an Edge Server.

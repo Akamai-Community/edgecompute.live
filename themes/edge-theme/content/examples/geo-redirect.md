@@ -1,7 +1,6 @@
 +++
 title = 'Geo Redirect'
 draft = false
-description = "EdgeWorker example to redirect visitors based on the location of the request to present location-relevant pages."
 categories = ['Geolocation']
 modules = []
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+EdgeWorker example to redirect visitors based on the location of the request to present location-relevant pages.

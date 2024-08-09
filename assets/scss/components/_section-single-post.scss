@@ -251,6 +251,18 @@
 			aspect-ratio: 16 / 9;
 			height: auto;
 		}
+
+		p {
+			margin-bottom: 2.5rem;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&:empty {
+				margin-bottom: 0;
+			}
+		}
 	}
 
 	.tabs-code {

@@ -1,7 +1,6 @@
 +++
 title = 'Cookie Geolocation'
 draft = false
-description = 'Implements an EdgeWorker to add geolocation data to a cookie in the HTTP response. This cookie returns location information about the client where the request originates, including a lookup from custom data.'
 categories = ['Geolocation']
 modules = ['cookies']
 icon = ''
@@ -16,3 +15,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Reduce Latency' = "Speed up response times by moving work closer to users."
 
 +++
+
+Implements an EdgeWorker to add geolocation data to a cookie in the HTTP response. This cookie returns location information about the client where the request originates, including a lookup from custom data.

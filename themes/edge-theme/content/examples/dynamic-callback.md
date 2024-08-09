@@ -1,7 +1,6 @@
 +++
 title = 'Dynamic Callback'
 draft = false
-description = 'Demonstrates how an EdgeWorker can wrap a JSON response with a dynamic unique callback function leveraging Response Provider and Stream API for efficient content transformation. The EdgeWorker should be enabled on JSON requests containing a callback query parameter, which can be managed via Property Manager. When such a request comes in, this EdgeWorker removes the callback query parameter, makes a sub-request to fetch the JSON data, and serves it as a stream. The EdgeWorker code adds a prefix with the callback function name captured from the query parameter and a suffix. Both JSON data and transformed data can be cached using standard ""Caching"" behavior in Property Manager if caching is allowed.'
 categories = ['Developer Tools']
 modules = ['streams', 'http-request', 'create-response', 'url-search-params']
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+Demonstrates how an EdgeWorker can wrap a JSON response with a dynamic unique callback function leveraging Response Provider and Stream API for efficient content transformation. The EdgeWorker should be enabled on JSON requests containing a callback query parameter, which can be managed via Property Manager. When such a request comes in, this EdgeWorker removes the callback query parameter, makes a sub-request to fetch the JSON data, and serves it as a stream. The EdgeWorker code adds a prefix with the callback function name captured from the query parameter and a suffix. Both JSON data and transformed data can be cached using standard ""Caching"" behavior in Property Manager if caching is allowed.

@@ -1,7 +1,6 @@
 +++
 title = 'Cookie Manipulation'
 draft = false
-description = "Implements an EdgeWorker that responds with a welcome message if the user's name is saved in a cookie, otherwise it prompts the user to enter their name."
 categories = ['Developer Tools']
 modules = ['cookies']
 icon = ''
@@ -16,3 +15,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Improve Reliability' = "Move compute cycles to the edge, reducing load and improving reliability and performance of origin servers."
 
 +++
+
+Implements an EdgeWorker that responds with a welcome message if the user's name is saved in a cookie, otherwise it prompts the user to enter their name.

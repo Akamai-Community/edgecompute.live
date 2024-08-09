@@ -1,7 +1,6 @@
 +++
 title = 'Traffic Allow'
 draft = false
-description = 'Implements an allow list depending on the geographic locale of the end user. If the user is arriving from United States embargoed countries, a 403 deny will occur.'
 categories = ['Traffic Routing', 'Security', 'Geolocation']
 modules = []
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+Implements an allow list depending on the geographic locale of the end user. If the user is arriving from United States embargoed countries, a 403 deny will occur.

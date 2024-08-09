@@ -1,7 +1,6 @@
 +++
 title = 'A/B Testing'
 draft = false
-description = "Randomly assigns a new user to a group for A/B testing. The assignment is stored in a cookie and passed to the origin in a query parameter. The A/B group can be forced via a query string parameter for easy testing. The group names, percentage split, cookie name, and query parameter name are configured through constants in the EdgeWorker JavaScript module."
 categories = ['Marketing', 'Traffic Routing']
 modules = ['cookies', 'url-search-params']
 icon = ''
@@ -15,5 +14,6 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Dynamic Flexibilty' = "Modify in-flight content on its way between client and origin server and back to clients."
 	'Improve Reliability' = "Move compute cycles to the edge, reducing load and improving reliability and performance of origin servers."
 
-
 +++
+
+Randomly assigns a new user to a group for A/B testing. The assignment is stored in a cookie and passed to the origin in a query parameter. The A/B group can be forced via a query string parameter for easy testing. The group names, percentage split, cookie name, and query parameter name are configured through constants in the EdgeWorker JavaScript module.

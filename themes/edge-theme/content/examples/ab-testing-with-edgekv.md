@@ -1,7 +1,6 @@
 +++
 title = 'A/B Testing with EdgeKV'
 draft = false
-description = "By moving the A/B test to the Akamai edge we can cache multiple variants of the same page close to the user making the decision of which variant to serve to the user without making the long round-trip to the origin web server or relying on client-side javascript."
 categories = ['Marketing']
 modules = ['cookies', 'log', 'edgekv']
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Reduce Latency' = "Speed up response times by moving work closer to users."
 
 +++
+
+By moving the A/B test to the Akamai edge we can cache multiple variants of the same page close to the user making the decision of which variant to serve to the user without making the long round-trip to the origin web server or relying on client-side javascript.

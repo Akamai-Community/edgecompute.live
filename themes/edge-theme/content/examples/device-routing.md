@@ -1,7 +1,6 @@
 +++
 title = 'Device Routing'
 draft = false
-description = 'Implements modification of the forward origin path of the URL to return device-specific content.'
 categories = ['Traffic Routing', 'Developer Tools']
 modules = []
 icon = ''
@@ -16,3 +15,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 
 +++
+
+Implements modification of the forward origin path of the URL to return device-specific content.

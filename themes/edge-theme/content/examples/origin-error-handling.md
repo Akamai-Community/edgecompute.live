@@ -1,7 +1,6 @@
 +++
 title = 'Origin Error Handling'
 draft = false
-description = "Translates a HTTP 503 status code (service unavailable) from an overloaded origin into an HTML page presenting the information in a more user-friendly way. It includes JavaScript to retry after the period indicated by the 'Retry-After' header from the origin, if present. Otherwise, it retries after a default number of seconds. Configuring the property to cache HTTP error responses, even for a short duration, makes sense for dynamic content."
 categories = ['Developer Tools']
 modules = []
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Dynamic Flexibilty' = "Modify in-flight content on its way between client and origin server and back to clients."
 
 +++
+
+Translates a HTTP 503 status code (service unavailable) from an overloaded origin into an HTML page presenting the information in a more user-friendly way. It includes JavaScript to retry after the period indicated by the 'Retry-After' header from the origin, if present. Otherwise, it retries after a default number of seconds. Configuring the property to cache HTTP error responses, even for a short duration, makes sense for dynamic content.

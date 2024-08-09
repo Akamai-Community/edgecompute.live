@@ -1,7 +1,6 @@
 +++
 title = 'HTML Rewriter'
 draft = false
-description = 'Leverage EdgeWorkers html-rewriter to efficiently generate dynamic HTML content by combining JSON data from an API endpoint with an HTML template. Additionally, if the request is made by a logged-in user, a discount code will be dynamically incorporated into the rendered document. By performing these operations at the Edge with EdgeWorkers, we enhance site performance, offload server resources, and unlock SEO advantages. The template, JSON data, and rendered content can all be efficiently cached at the Edge, further optimizing response times and improving the overall site experience.'
 categories = ['Developer Tools']
 modules = ['log', 'html-rewriter', 'http-request', 'create-response', 'url-search-params']
 icon = ''
@@ -18,4 +17,4 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Ease Development' = "Enable developers to modify application behavior without touching origin server logic."
 +++
 
-
+Leverage EdgeWorkers html-rewriter to efficiently generate dynamic HTML content by combining JSON data from an API endpoint with an HTML template. Additionally, if the request is made by a logged-in user, a discount code will be dynamically incorporated into the rendered document. By performing these operations at the Edge with EdgeWorkers, we enhance site performance, offload server resources, and unlock SEO advantages. The template, JSON data, and rendered content can all be efficiently cached at the Edge, further optimizing response times and improving the overall site experience.

@@ -1,7 +1,6 @@
 +++
 title = 'Hello World'
 draft = false
-description = 'With this example you learn the basics of creating, deploying and debugging an EdgeWorker that generates a simple html page at the Edge and adds a response header.'
 categories = ['Developer Tools']
 modules = ['log']
 icon = 'icon-command-line-small.svg'
@@ -16,4 +15,4 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Reduce Latency' = 'Speed up response times by moving work closer to users.'
 +++
 
-
+With this example you learn the basics of creating, deploying and debugging an EdgeWorker that generates a simple html page at the Edge and adds a response header.

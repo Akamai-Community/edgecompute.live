@@ -1,4 +1,4 @@
-baseURL = 'https://dev-akamai.github.io/Akamai-Edge-Compute-Live'
+baseURL = 'https://dev-akamai.github.io/Akamai-Edge-Compute-Live/'
 languageCode = 'en-us'
 title = 'Edge Compute Live'
 theme = 'edge-theme'
@@ -21,3 +21,8 @@ weight = 100
 [[related.indices]]
 name = "date"
 weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

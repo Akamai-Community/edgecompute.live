@@ -65,9 +65,9 @@
 				</div><!-- /.section__head -->
 
 				<div class="section__body">
-					{{ if .Params.description }}
+					{{ if .Params.useCase }}
 						<div class="section__entry">
-							<p>{{ .Params.description | safeHTML }}</p>
+							<p>{{ .Params.useCase | safeHTML }}</p>
 						</div><!-- /.section__entry -->
 					{{ end }}
 
@@ -128,7 +128,7 @@
 									</div><!-- /.box__head -->
 
 									<div class="box__body">
-										<iframe src="{{ with .Params.demoURLs }}{{ index . 0 }}{{ else }}{{ .Params.demoURL }}{{ end }}" width="100%" height="400" frameborder="0" class="js-demo-iframe"></iframe>
+										<iframe src="{{ with .Params.demoURLs }}{{ index . 0 }}{{ else }}{{ .Params.demoURL }}{{ end }}" width="100%" height="400" frameborder="0" class="js-demo-iframe" sandbox="allow-scripts allow-same-origin"></iframe>
 									</div><!-- /.box__body -->
 								</div><!-- /.box-preview -->
 							</div><!-- /.tab -->
@@ -139,9 +139,9 @@
 						</div><!-- /.tab__info -->
 					</div><!-- /.tabs js-tabs -->
 
-					{{ if .Params.useCase }}
+					{{ if .Content }}
 						<div class="section__entry">
-							<p>{{ .Params.useCase | safeHTML}}</p>
+							<p>{{ .Content | safeHTML }}</p>
 						</div><!-- /.section__entry -->
 					{{ end }}
 

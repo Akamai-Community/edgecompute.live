@@ -1,7 +1,6 @@
 +++
 title = 'EdgeKV Hello World'
 draft = false
-description = "The Hello World example demonstrates how you can use EdgeWorkers and EdgeKV to implement a simple Dynamic Content Assembly use case whereby the HTML response is dynamically constructed on the edge based on the content of the Accept-Language header in the client request. It also shows how you could use the getText() helper method."
 categories = ['Developer Tools']
 modules = ['create-response', 'edgekv']
 icon = ''
@@ -17,3 +16,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Distributed Data' = "Pushing data to the edge speeds up websites by avoiding central bottlenecks."
 
 +++
+
+The Hello World example demonstrates how you can use EdgeWorkers and EdgeKV to implement a simple Dynamic Content Assembly use case whereby the HTML response is dynamically constructed on the edge based on the content of the Accept-Language header in the client request. It also shows how you could use the getText() helper method.

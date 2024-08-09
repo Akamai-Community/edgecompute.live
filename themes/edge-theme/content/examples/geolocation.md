@@ -1,7 +1,6 @@
 +++
 title = 'Geolocation'
 draft = false
-description = 'This example implements a microservice GEO-Location API call that returns location information about the client where the request originates.'
 categories = ['Geolocation']
 modules = []
 icon = 'icon-geolocation-small.svg'
@@ -16,4 +15,4 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Geolocation Information' = "Apply dynamic business logic based on the request's origin location information."
 +++
 
-
+This example implements a microservice GEO-Location API call that returns location information about the client where the request originates.

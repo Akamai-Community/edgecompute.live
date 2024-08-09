@@ -1,7 +1,6 @@
 +++
 title = 'Store Locator'
 draft = false
-description = 'Implements a microservice store locator API call that returns the two stores nearest to the provided latitude and longitude. <br><br>Note: Latitude and Longitude values are hardcoded for demo purposes.'
 categories = ['Geolocation']
 modules = ['url-search-params', 'NPM']
 icon = ''
@@ -18,3 +17,5 @@ gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute
 	'Distributed Data' = "Pushing data to the edge speeds up websites by avoiding central bottlenecks."
 
 +++
+
+Implements a microservice store locator API call that returns the two stores nearest to the provided latitude and longitude. <br><br>Note: Latitude and Longitude values are hardcoded for demo purposes.
