@@ -115,6 +115,14 @@
 			-webkit-line-clamp: 4;
 			-webkit-box-orient: vertical;
 			overflow: hidden;
+
+			&:empty {
+				display: none;
+			}
+
+			&:not(:empty) ~ p {
+				display: none;
+			}
 		}
 	}
 
