@@ -94,6 +94,10 @@
 			margin-bottom: 0;
 		}
 
+		iframe {
+			display: none!important;
+		}
+
 		h5 {
 			margin-bottom: .8rem;
 			color: var(--c-black-2);

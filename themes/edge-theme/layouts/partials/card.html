@@ -51,7 +51,7 @@
         <div class="card__entry">
             <h5>{{ .Params.title }}</h5>
 
-            <p>{{ .Params.description | markdownify }}</p>
+            <p>{{ .Content | safeHTML }}</p>
         </div><!-- /.card__entry -->
 
         <span class="btn btn--blue card__btn">View Case</span><!-- /.btn btn--blue card__btn -->
