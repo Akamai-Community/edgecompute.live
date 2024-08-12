@@ -1,6 +1,6 @@
 +++
 title = 'Autocomplete'
-draft = false
+draft = true
 categories = ['Miscellaneous']
 modules = ['url-search-params']
 icon = ''
