@@ -1,6 +1,6 @@
 +++
 title = 'Cookie Manipulation'
-draft = false
+draft = true
 categories = ['Developer Tools']
 modules = ['cookies']
 icon = ''
