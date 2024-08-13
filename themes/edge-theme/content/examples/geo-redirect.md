@@ -1,6 +1,6 @@
 +++
 title = 'Geo Redirect'
-draft = false
+draft = true
 categories = ['Geolocation']
 modules = []
 icon = ''
