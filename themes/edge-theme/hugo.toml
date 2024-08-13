@@ -9,7 +9,7 @@ weight = 10
 
 [[menus.main]]
 name = 'Docs'
-url = 'https://techdocs.akamai.com/home?&utm_source=edgecomputelive&utm_content=docs'
+url = 'https://techdocs.akamai.com/edgeworkers/docs/welcome-to-edgeworkers&utm_content=docs'
 weight = 20
 
 [module]
