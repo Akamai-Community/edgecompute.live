@@ -1,6 +1,6 @@
 +++
 title = 'A/B Testing with EdgeKV'
-draft = true
+draft = false
 categories = ['Marketing']
 modules = ['cookies', 'log', 'edgekv']
 icon = ''
