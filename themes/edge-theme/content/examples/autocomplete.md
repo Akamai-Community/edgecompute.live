@@ -1,13 +1,13 @@
 +++
 title = 'Autocomplete'
-draft = true
+draft = false
 categories = ['Miscellaneous']
 modules = ['url-search-params']
 icon = ''
 features = ['onClientRequest', 'request.respondWith']
 useCase = 'Serving popular search terms from the edge accelerates autocomplete responses, providing users with fast and relevant suggestions. This reduces the load on the origin server and ensures up-to-date content delivery, enhancing user experience.'
 featured = false
-demoURL = 'https://www.edgecompute.live/edgeworkers/search/fastAutoComplete.php'
+demoURL = 'https://www.edgecompute.live/edgeworkers/search/fastAutoComplete.php?term=bmw'
 gitURL = 'https://github.com/akamai/edgeworkers-examples/tree/master/edgecompute/examples/search/fast-autocomplete'
 
 [benefits]
