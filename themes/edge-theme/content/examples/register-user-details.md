@@ -1,5 +1,5 @@
 +++
-title = 'User Registration'
+title = 'Register User Details'
 draft = false
 categories = ['Auth']
 modules = ['url-search-params', 'create-response', 'edgekv']
