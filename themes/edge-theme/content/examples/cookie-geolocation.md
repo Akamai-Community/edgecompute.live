@@ -1,6 +1,6 @@
 +++
 title = 'Cookie Geolocation'
-draft = true
+draft = false
 categories = ['Geolocation']
 modules = ['cookies']
 icon = ''
