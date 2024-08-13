@@ -1,6 +1,6 @@
 +++
 title = 'A/B Testing'
-draft = true
+draft = false
 categories = ['Marketing', 'Traffic Routing']
 modules = ['cookies', 'url-search-params']
 icon = ''
